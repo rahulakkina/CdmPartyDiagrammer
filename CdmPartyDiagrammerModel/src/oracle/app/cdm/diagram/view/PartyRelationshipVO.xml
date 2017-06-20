@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE ViewObject SYSTEM "jbo_03_01.dtd">
+<!---->
+<ViewObject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="PartyRelationshipVO"
+  Version="12.1.2.65.26"
+  InheritPersonalization="merge"
+  SelectList="PartyEO.PARTY_TYPE, 
+       PartyEO.PARTY_UNIQUE_NAME, 
+       PartyEO.ROWID, 
+       PartyEO.PARTY_NAME, 
+       RelationshipEO.RELATIONSHIP_CODE, 
+       RelationshipEO.ROWID AS ROWID1, 
+       RelationshipEO.OBJECT_ID, 
+       RelationshipEO.OBJECT_TYPE, 
+       RelationshipEO.SUBJECT_ID"
+  FromList="FUSION.HZ_PARTIES PartyEO, FUSION.HZ_RELATIONSHIPS RelationshipEO"
+  Where="PartyEO.PARTY_ID = RelationshipEO.SUBJECT_ID     
+AND RelationshipEO.DIRECTIONAL_FLAG = 'F'     
+START WITH RelationshipEO.OBJECT_ID = :PartyId      
+CONNECT BY NOCYCLE PRIOR RelationshipEO.SUBJECT_ID = RelationshipEO.OBJECT_ID      
+AND LEVEL &lt;= :Depth     
+ORDER BY LEVEL"
+  BindingStyle="OracleName"
+  CustomQuery="false"
+  RowClass="oracle.app.cdm.diagram.view.PartyRelationshipVORowImpl"
+  ComponentClass="oracle.app.cdm.diagram.view.PartyRelationshipVOImpl"
+  DefClass="oracle.app.cdm.diagram.view.PartyRelationshipVODefImpl"
+  PageIterMode="Full"
+  RowInterface="oracle.app.cdm.diagram.view.common.PartyRelationshipVORow"
+  ClientRowProxyName="oracle.app.cdm.diagram.view.client.PartyRelationshipVORowClient">
+  <DesignTime>
+    <Attr Name="_codeGenFlag2" Value="Access|Def|Coll|Prog|VarAccess"/>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <Properties>
+    <SchemaBasedProperties>
+      <LABEL
+        ResId="oracle.app.cdm.diagram.view.PartyRelationshipVO_LABEL"/>
+    </SchemaBasedProperties>
+  </Properties>
+  <Variable
+    Name="PartyId"
+    Kind="where"
+    Type="java.lang.Long"
+    DefaultValue="3532"/>
+  <Variable
+    Name="Depth"
+    Kind="where"
+    Type="java.lang.Integer"
+    DefaultValue="2"/>
+  <EntityUsage
+    Name="PartyEO"
+    Entity="oracle.app.cdm.diagram.entity.PartyEO"/>
+  <EntityUsage
+    Name="RelationshipEO"
+    Entity="oracle.app.cdm.diagram.entity.RelationshipEO"
+    ReadOnly="true"
+    DeleteParticipant="false">
+    <DesignTime>
+      <Attr Name="_customjoin" Value="true"/>
+    </DesignTime>
+  </EntityUsage>
+  <ViewAttribute
+    Name="PartyType"
+    IsNotNull="true"
+    PrecisionRule="true"
+    EntityAttrName="PartyType"
+    EntityUsage="PartyEO"
+    AliasName="PARTY_TYPE"/>
+  <ViewAttribute
+    Name="PartyUniqueName"
+    PrecisionRule="true"
+    EntityAttrName="PartyUniqueName"
+    EntityUsage="PartyEO"
+    AliasName="PARTY_UNIQUE_NAME"/>
+  <ViewAttribute
+    Name="Rowid"
+    IsUpdateable="false"
+    PrecisionRule="true"
+    EntityAttrName="Rowid"
+    EntityUsage="PartyEO"
+    AliasName="ROWID"/>
+  <ViewAttribute
+    Name="PartyName"
+    IsNotNull="true"
+    PrecisionRule="true"
+    EntityAttrName="PartyName"
+    EntityUsage="PartyEO"
+    AliasName="PARTY_NAME"/>
+  <ViewAttribute
+    Name="RelationshipCode"
+    IsNotNull="true"
+    PrecisionRule="true"
+    EntityAttrName="RelationshipCode"
+    EntityUsage="RelationshipEO"
+    AliasName="RELATIONSHIP_CODE"/>
+  <ViewAttribute
+    Name="Rowid1"
+    IsUpdateable="false"
+    PrecisionRule="true"
+    EntityAttrName="Rowid"
+    EntityUsage="RelationshipEO"
+    AliasName="ROWID1"/>
+  <ViewAttribute
+    Name="ObjectId"
+    IsNotNull="true"
+    PrecisionRule="true"
+    EntityAttrName="ObjectId"
+    EntityUsage="RelationshipEO"
+    AliasName="OBJECT_ID"/>
+  <ViewAttribute
+    Name="ObjectType"
+    IsNotNull="true"
+    PrecisionRule="true"
+    EntityAttrName="ObjectType"
+    EntityUsage="RelationshipEO"
+    AliasName="OBJECT_TYPE"/>
+  <ViewAttribute
+    Name="SubjectId"
+    IsNotNull="true"
+    PrecisionRule="true"
+    EntityAttrName="SubjectId"
+    EntityUsage="RelationshipEO"
+    AliasName="SUBJECT_ID"/>
+  <ResourceBundle>
+    <PropertiesBundle
+      PropertiesFile="oracle.app.cdm.diagram.CdmPartyDiagrammerModelBundle"/>
+  </ResourceBundle>
+</ViewObject>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <View
+      id="View2">
+      <property
+         name="activityId">PartyRelationGraph</property>
+      <property
+         name="page">/pages/PartyRelationGraph.jspx</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>PartyRelationGraph&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">130.09277</property>
+      <property
+         name="x">529.0</property>
+   </View>
+   <WildcardControlFlowRule
+      id="WildcardControlFlowRule3">
+      <property
+         name="activityId">*</property>
+      <property
+         name="y">129.11133</property>
+      <property
+         name="x">221.0</property>
+   </WildcardControlFlowRule>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase4"
+      from="View2"
+      to="View2">
+      <property
+         name="fromOutcome">*</property>
+      <property
+         name="sdm:polyPoints">T44,525.5,76.11133,532.5,76.11133,T56</property>
+   </ControlFlowCase>
+</SDM>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <view id="PartyRelationGraph">
+    <page>/pages/PartyRelationGraph.jspx</page>
+  </view>
+  <control-flow-rule id="__1">
+    <from-activity-id>*</from-activity-id>
+  </control-flow-rule>
+  <control-flow-rule id="__2">
+    <from-activity-id>PartyRelationGraph</from-activity-id>
+    <control-flow-case id="__3">
+      <to-activity-id>PartyRelationGraph</to-activity-id>
+    </control-flow-case>
+  </control-flow-rule>
+</adfc-config>

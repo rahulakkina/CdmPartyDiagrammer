@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<af:pageTemplateDef xmlns:af="http://xmlns.oracle.com/adf/faces/rich" var="attrs" definition="private"
+                    xmlns:afc="http://xmlns.oracle.com/adf/faces/rich/component">
+    <af:xmlContent>
+        <afc:component>
+            <afc:description>Dynamic declarative component for the global tools, global menu bar, breadcrumbs, and demo
+                             finder.</afc:description>
+            <afc:facet>
+                <afc:description>
+                    <![CDATA[Additional menu to add to the global tools menu bar.]]>
+                </afc:description>
+                <afc:facet-name>customMenu</afc:facet-name>                
+            </afc:facet>
+            <afc:facet>
+                <afc:description>
+                    <![CDATA[Location information about the current user.]]>
+                </afc:description>
+                <afc:facet-name>infoUser</afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:description>
+                    <![CDATA[Location information, e.g. breadCrumbs.]]>
+                </afc:description>
+                <afc:facet-name>location</afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:description>
+                    <![CDATA[Search field that will be rendered if in gallery mode.]]>
+                </afc:description>
+                <afc:facet-name>search</afc:facet-name>
+            </afc:facet>
+            <afc:attribute>
+                <afc:description>the destination for the template source if applicable</afc:description>
+                <afc:attribute-name>templateSource</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether to show the &quot;link views&quot; source menu items in the view source menu</afc:description>
+                <afc:attribute-name>showLinkViewsSource</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether to show the &quot;component gallery&quot; source menu items in the view source
+                                 menu</afc:description>
+                <afc:attribute-name>showGallerySource</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>the destination for the tag documentation</afc:description>
+                <afc:attribute-name>tagDocDestination</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether the tag documentation should be shown</afc:description>
+                <afc:attribute-name>tagDocShown</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>the destination for the skinning documentation</afc:description>
+                <afc:attribute-name>skinDocDestination</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether the skin documentation should be shown</afc:description>
+                <afc:attribute-name>skinDocShown</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>the destination for the skinning demo</afc:description>
+                <afc:attribute-name>skinDemoDestination</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether the skin demo should be shown</afc:description>
+                <afc:attribute-name>skinDemoShown</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>the destination for the tag demo</afc:description>
+                <afc:attribute-name>tagDemoDestination</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether the tag demo should be shown</afc:description>
+                <afc:attribute-name>tagDemoShown</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>the destination for the visual design demo</afc:description>
+                <afc:attribute-name>visualDesignDemoDestination</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether the visual design demo should be shown</afc:description>
+                <afc:attribute-name>visualDesignDemoShown</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>
+            <afc:attribute>
+                <afc:description>whether the visual design demo should be disabled</afc:description>
+                <afc:attribute-name>visualDesignDemoDisabled</afc:attribute-name>
+                <afc:attribute-class>boolean</afc:attribute-class>
+                <afc:default-value>false</afc:default-value>
+            </afc:attribute>           
+        </afc:component>
+    </af:xmlContent>    
+</af:pageTemplateDef>

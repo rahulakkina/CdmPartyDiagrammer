@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:h="http://java.sun.com/jsf/html"
+          xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+          xmlns:dvt="http://xmlns.oracle.com/dss/adf/faces">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <f:view>
+        <af:document title="Party Relationship Graph" id="d1" binding="#{backing_pages_PartyRelationGraph.d1}">
+            <af:messages binding="#{backing_pages_PartyRelationGraph.m1}" id="m1"/>
+            <af:form id="f1" binding="#{backing_pages_PartyRelationGraph.f1}">
+                <af:panelSplitter orientation="horizontal" splitterPosition="250" id="ps2"
+                                  binding="#{backing_pages_PartyRelationGraph.ps2}">
+                    <f:facet name="first">
+                        <af:panelAccordion id="pa2" binding="#{backing_pages_PartyRelationGraph.pa2}">
+                            <af:showDetailItem text="Parties Relationship Graph" id="sdi2"
+                                               binding="#{backing_pages_PartyRelationGraph.sdi2}">
+                                <af:panelFormLayout id="pfl2" binding="#{backing_pages_PartyRelationGraph.pfl2}">
+                                    <af:group id="g1">
+                                        <af:selectOneChoice value="#{backing_pages_PartyRelationGraph.partyId}"
+                                                            label="Select a Party"
+                                                            required="#{bindings.PartyVO11.hints.mandatory}"
+                                                            autoSubmit="true"
+                                                            valueChangeListener="#{backing_pages_PartyRelationGraph.onValueChange}"
+                                                            shortDesc="#{bindings.PartyVO11.hints.tooltip}" id="soc3"
+                                                            binding="#{backing_pages_PartyRelationGraph.soc3}">
+                                            <f:selectItems value="#{bindings.PartyVO11.items}" id="si8"/>
+                                            <f:validator binding="#{bindings.PartyVO11.validator}"/>
+                                        </af:selectOneChoice>
+                                        <af:separator id="s2" binding="#{backing_pages_PartyRelationGraph.s2}"/>
+                                        <af:selectOneChoice label="Relationship Graph Depth" autoSubmit="true"
+                                                            valueChangeListener="#{backing_pages_PartyRelationGraph.onValueChange}"
+                                                            value="#{backing_pages_PartyRelationGraph.depth}" id="soc2">
+                                            <af:selectItem label="ONE" value="1" id="si1"/>
+                                            <af:selectItem label="TWO" value="2" id="si2"/>
+                                            <af:selectItem label="THREE" value="3" id="si3"/>
+                                            <af:selectItem label="FOUR" value="4" id="si4"/>
+                                        </af:selectOneChoice>
+                                        <af:separator id="s3"/>
+                                        <af:selectOneChoice label="Select a Layout"
+                                                            value="#{backing_pages_PartyRelationGraph.diagramLayout}"
+                                                            id="soc4" binding="#{backing_pages_PartyRelationGraph.soc4}"
+                                                            autoSubmit="true"
+                                                            valueChangeListener="#{backing_pages_PartyRelationGraph.onValueChange}">
+                                            <af:selectItem label="CIRCLE" value="circle" id="si9"/>
+                                            <af:selectItem label="NETWORK" value="network" id="si10"/>
+                                        </af:selectOneChoice>
+                                    </af:group>
+                                    <f:facet name="footer"/>
+                                </af:panelFormLayout>
+                            </af:showDetailItem>
+                        </af:panelAccordion>
+                    </f:facet>
+                    <f:facet name="second">
+                        <dvt:diagram id="dg1" layout="#{backing_pages_PartyRelationGraph.diagramLayout}"
+                                     binding="#{backing_pages_PartyRelationGraph.dg1}" summary="PartyRelationGraph"
+                                     partialTriggers="soc2 soc3 soc4 dn1" selection="single">
+                            <dvt:clientLayout name="circle" method="AdfDvtCircleLayout.circleLayout"
+                                              featureName="AdfDvtCircleLayout"/>
+                            <dvt:clientLayout name="network" method="AdfDvtForceDirectedLayout.forceDirectedLayout"
+                                              featureName="AdfDvtForceDirectedLayout">
+                                <f:attribute name="initialTempFactor" value="0.5"/>
+                                <f:attribute name="iterations"
+                                             value="#{backing_pages_PartyRelationGraph.partyGraph.lnkSize}"/>
+                            </dvt:clientLayout>
+                            <dvt:diagramNodes var="node" value="#{backing_pages_PartyRelationGraph.partyGraph.nodes}"
+                                              id="dn1"
+                                              selectedRowKeys="#{backing_pages_PartyRelationGraph.selectedRows}"
+                                              binding="#{backing_pages_PartyRelationGraph.dn1}"
+                                              selectionListener="#{backing_pages_PartyRelationGraph.onSelection}"
+                                              rowDisclosureListener="#{backing_pages_PartyRelationGraph.nodeListener}">
+                                <dvt:diagramNode nodeId="#{node.id}" label="#{node.label}"
+                                                 shortDesc="#{node.label} (Id : #{node.id}, Type : #{node.type})"
+                                                 id="dn2" showStack="false" showNodeActions="false">
+                                    <af:showPopupBehavior popupId="::dianp" triggerType="mouseHover" align="endAfter"/>
+                                    <f:facet name="zoom100">
+                                        <af:image source="/images/#{node.attributes['ICON']}" id="i1"
+                                                  shortDesc="#{node.label} (Id : #{node.id})"
+                                                  binding="#{backing_pages_PartyRelationGraph.i1}"/>
+                                    </f:facet>
+                                </dvt:diagramNode>
+                            </dvt:diagramNodes>
+                            <dvt:diagramLinks var="link" value="#{backing_pages_PartyRelationGraph.partyGraph.links}"
+                                              id="dl1" binding="#{backing_pages_PartyRelationGraph.dl1}">
+                                <dvt:diagramLink startNode="#{link.from.id}" endNode="#{link.to.id}" id="dl2"
+                                                 linkWidth="1" shortDesc="#{link.label}" linkColor="#01009c"
+                                                 linkStyle="solid" rendered="true" selectable="false"/>
+                            </dvt:diagramLinks>
+                        </dvt:diagram>
+                    </f:facet>
+                </af:panelSplitter>
+                <af:popup id="dianp" launcherVar="source" eventContext="launcher" clientComponent="true"
+                          contentDelivery="lazyUncached">
+                    <af:setPropertyListener from="#{source.currentRowData.id}"
+                                            to="#{backing_pages_PartyRelationGraph.popupNode}" type="popupFetch"/>
+                    <af:noteWindow>
+                        <af:outputText value="Party Id #{backing_pages_PartyRelationGraph.popupNode}"/>
+                        <!--
+                           <af:outputFormatted value="#{node.attributes['UNIQUENAME']}" id="of1" shortDesc="Name" binding="#{backing_pages_PartyRelationGraph.of1}"/>
+                           <af:outputFormatted value="#{node.attributes['EMAIL']}" id="of2" shortDesc="Email" binding="#{backing_pages_PartyRelationGraph.of2}"/>
+                           <af:outputFormatted value="#{node.type}" id="of3" shortDesc="Party Type"   binding="#{backing_pages_PartyRelationGraph.of3}"/>
+                           -->
+                    </af:noteWindow>
+                </af:popup>
+            </af:form>
+        </af:document>
+    </f:view>
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:backing_pages_PartyRelationGraph-->
+</jsp:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+<!---->
+<JboProject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="CdmPartyDiagrammerModel"
+  Version="12.1.2.66.26"
+  SeparateXMLFiles="true"
+  PackageName="oracle.app.cdm.diagram">
+  <DesignTime>
+    <Attr Name="_jprName" Value="../../../../../CdmPartyDiagrammerModel.jpr"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="OracleApps"/>
+    <Attr Name="_NamedConnection" Value="fusionCloud"/>
+    <Attr Name="_appModuleNames0" Value="oracle.app.cdm.diagram.module.PartyRelationshipAM"/>
+  </DesignTime>
+  <Containee
+    Name="association"
+    PackageName="oracle.app.cdm.diagram.entity.association"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AS" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="entity"
+    PackageName="oracle.app.cdm.diagram.entity"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_EO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="module"
+    PackageName="oracle.app.cdm.diagram.module"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="view"
+    PackageName="oracle.app.cdm.diagram.view"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+</JboProject>

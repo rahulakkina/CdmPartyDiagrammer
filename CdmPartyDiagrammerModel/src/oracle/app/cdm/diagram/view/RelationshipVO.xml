@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE ViewObject SYSTEM "jbo_03_01.dtd">
+<!---->
+<ViewObject xmlns="http://xmlns.oracle.com/bc4j" Name="RelationshipVO" Version="12.1.2.65.26" InheritPersonalization="merge" SelectList="RelationshipEO.RELATIONSHIP_REC_ID, 
+       RelationshipEO.RELATIONSHIP_ID, 
+       RelationshipEO.SUBJECT_ID, 
+       RelationshipEO.SUBJECT_TYPE, 
+       RelationshipEO.SUBJECT_TABLE_NAME, 
+       RelationshipEO.OBJECT_ID, 
+       RelationshipEO.OBJECT_TYPE, 
+       RelationshipEO.OBJECT_TABLE_NAME, 
+       RelationshipEO.RELATIONSHIP_CODE, 
+       RelationshipEO.DIRECTIONAL_FLAG, 
+       RelationshipEO.COMMENTS, 
+       RelationshipEO.START_DATE, 
+       RelationshipEO.END_DATE, 
+       RelationshipEO.STATUS, 
+       RelationshipEO.CREATED_BY, 
+       RelationshipEO.CREATION_DATE, 
+       RelationshipEO.LAST_UPDATED_BY, 
+       RelationshipEO.LAST_UPDATE_DATE, 
+       RelationshipEO.LAST_UPDATE_LOGIN, 
+       RelationshipEO.REQUEST_ID, 
+       RelationshipEO.JOB_DEFINITION_NAME, 
+       RelationshipEO.JOB_DEFINITION_PACKAGE, 
+       RelationshipEO.ATTRIBUTE_CATEGORY, 
+       RelationshipEO.ATTRIBUTE1, 
+       RelationshipEO.ATTRIBUTE2, 
+       RelationshipEO.ATTRIBUTE3, 
+       RelationshipEO.ATTRIBUTE4, 
+       RelationshipEO.ATTRIBUTE5, 
+       RelationshipEO.ATTRIBUTE6, 
+       RelationshipEO.ATTRIBUTE7, 
+       RelationshipEO.ATTRIBUTE8, 
+       RelationshipEO.ATTRIBUTE9, 
+       RelationshipEO.ATTRIBUTE10, 
+       RelationshipEO.ATTRIBUTE11, 
+       RelationshipEO.ATTRIBUTE12, 
+       RelationshipEO.ATTRIBUTE13, 
+       RelationshipEO.ATTRIBUTE14, 
+       RelationshipEO.ATTRIBUTE15, 
+       RelationshipEO.ATTRIBUTE16, 
+       RelationshipEO.ATTRIBUTE17, 
+       RelationshipEO.ATTRIBUTE18, 
+       RelationshipEO.ATTRIBUTE19, 
+       RelationshipEO.ATTRIBUTE20, 
+       RelationshipEO.RELATIONSHIP_TYPE, 
+       RelationshipEO.OBJECT_VERSION_NUMBER, 
+       RelationshipEO.CREATED_BY_MODULE, 
+       RelationshipEO.ADDITIONAL_INFORMATION1, 
+       RelationshipEO.ADDITIONAL_INFORMATION2, 
+       RelationshipEO.ADDITIONAL_INFORMATION3, 
+       RelationshipEO.ADDITIONAL_INFORMATION4, 
+       RelationshipEO.ADDITIONAL_INFORMATION5, 
+       RelationshipEO.ADDITIONAL_INFORMATION6, 
+       RelationshipEO.ADDITIONAL_INFORMATION7, 
+       RelationshipEO.ADDITIONAL_INFORMATION8, 
+       RelationshipEO.ADDITIONAL_INFORMATION9, 
+       RelationshipEO.ADDITIONAL_INFORMATION10, 
+       RelationshipEO.ADDITIONAL_INFORMATION11, 
+       RelationshipEO.ADDITIONAL_INFORMATION12, 
+       RelationshipEO.ADDITIONAL_INFORMATION13, 
+       RelationshipEO.ADDITIONAL_INFORMATION14, 
+       RelationshipEO.ADDITIONAL_INFORMATION15, 
+       RelationshipEO.ADDITIONAL_INFORMATION16, 
+       RelationshipEO.ADDITIONAL_INFORMATION17, 
+       RelationshipEO.ADDITIONAL_INFORMATION18, 
+       RelationshipEO.ADDITIONAL_INFORMATION19, 
+       RelationshipEO.ADDITIONAL_INFORMATION20, 
+       RelationshipEO.ADDITIONAL_INFORMATION21, 
+       RelationshipEO.ADDITIONAL_INFORMATION22, 
+       RelationshipEO.ADDITIONAL_INFORMATION23, 
+       RelationshipEO.ADDITIONAL_INFORMATION24, 
+       RelationshipEO.ADDITIONAL_INFORMATION25, 
+       RelationshipEO.ADDITIONAL_INFORMATION26, 
+       RelationshipEO.ADDITIONAL_INFORMATION27, 
+       RelationshipEO.ADDITIONAL_INFORMATION28, 
+       RelationshipEO.ADDITIONAL_INFORMATION29, 
+       RelationshipEO.ADDITIONAL_INFORMATION30, 
+       RelationshipEO.DIRECTION_CODE, 
+       RelationshipEO.PERCENTAGE_OWNERSHIP, 
+       RelationshipEO.ACTUAL_CONTENT_SOURCE, 
+       RelationshipEO.DEPENDENT_FLAG, 
+       RelationshipEO.HEAD_OF_HOUSEHOLD_FLAG, 
+       RelationshipEO.SUBJECT_USAGE_CODE, 
+       RelationshipEO.OBJECT_USAGE_CODE, 
+       RelationshipEO.CONFLICT_ID, 
+       RelationshipEO.USER_LAST_UPDATE_DATE, 
+       RelationshipEO.ATTRIBUTE21, 
+       RelationshipEO.ATTRIBUTE22, 
+       RelationshipEO.ATTRIBUTE23, 
+       RelationshipEO.ATTRIBUTE24, 
+       RelationshipEO.ATTRIBUTE25, 
+       RelationshipEO.ATTRIBUTE26, 
+       RelationshipEO.ATTRIBUTE27, 
+       RelationshipEO.ATTRIBUTE28, 
+       RelationshipEO.ATTRIBUTE29, 
+       RelationshipEO.ATTRIBUTE30, 
+       RelationshipEO.CPDRF_VER_SOR, 
+       RelationshipEO.CPDRF_VER_PILLAR, 
+       RelationshipEO.CPDRF_LAST_UPD, 
+       RelationshipEO.ATTRIBUTE_NUMBER1, 
+       RelationshipEO.ATTRIBUTE_NUMBER2, 
+       RelationshipEO.ATTRIBUTE_NUMBER3, 
+       RelationshipEO.ATTRIBUTE_NUMBER4, 
+       RelationshipEO.ATTRIBUTE_NUMBER5, 
+       RelationshipEO.ATTRIBUTE_NUMBER6, 
+       RelationshipEO.ATTRIBUTE_NUMBER7, 
+       RelationshipEO.ATTRIBUTE_NUMBER8, 
+       RelationshipEO.ATTRIBUTE_NUMBER9, 
+       RelationshipEO.ATTRIBUTE_NUMBER10, 
+       RelationshipEO.ATTRIBUTE_NUMBER11, 
+       RelationshipEO.ATTRIBUTE_NUMBER12, 
+       RelationshipEO.ATTRIBUTE_DATE1, 
+       RelationshipEO.ATTRIBUTE_DATE2, 
+       RelationshipEO.ATTRIBUTE_DATE3, 
+       RelationshipEO.ATTRIBUTE_DATE4, 
+       RelationshipEO.ATTRIBUTE_DATE5, 
+       RelationshipEO.ATTRIBUTE_DATE6, 
+       RelationshipEO.ATTRIBUTE_DATE7, 
+       RelationshipEO.ATTRIBUTE_DATE8, 
+       RelationshipEO.ATTRIBUTE_DATE9, 
+       RelationshipEO.ATTRIBUTE_DATE10, 
+       RelationshipEO.ATTRIBUTE_DATE11, 
+       RelationshipEO.ATTRIBUTE_DATE12, 
+       RelationshipEO.CURRENCY_CODE, 
+       RelationshipEO.CORP_CURRENCY_CODE, 
+       RelationshipEO.CURCY_CONV_RATE_TYPE, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP001, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP002, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP003, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER001, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER002, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER003, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER004, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER005, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER006, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER007, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER008, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR001, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR002, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR003, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR004, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR005, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR006, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR007, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR008, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR009, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR010, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR011, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR012, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR013, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR014, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP004, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP005, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP006, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER009, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER010, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER011, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER012, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER013, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER014, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER015, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER016, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR015, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR016, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR017, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR018, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR019, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR020, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR021, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR022, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR023, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR024, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR025, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR026, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR027, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR028, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB001, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB002, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP007, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP008, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP009, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER017, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER018, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER019, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER020, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER021, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER022, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER023, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER024, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR029, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR030, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR031, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR032, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR033, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR034, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR035, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR036, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR037, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR038, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR039, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR040, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR041, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR042, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP010, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP011, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP012, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER025, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER026, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER027, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER028, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER029, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER030, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER031, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER032, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR043, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR044, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR045, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR046, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR047, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR048, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR049, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR050, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR051, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR052, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR053, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR054, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR055, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR056, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB003, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB004, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP013, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP014, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP015, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER033, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER034, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER035, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER036, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER037, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER038, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER039, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER040, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR057, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR058, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR059, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR060, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR061, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR062, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR063, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR064, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR065, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR066, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR067, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR068, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR069, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR070, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP016, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP017, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP018, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER041, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER042, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER043, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER044, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER045, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER046, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER047, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER048, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR071, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR072, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR073, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR074, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR075, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR076, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR077, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR078, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR079, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR080, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR081, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR082, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR083, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR084, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB005, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB006, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP019, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP020, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP021, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER049, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER050, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER051, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER052, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER053, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER054, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER055, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER056, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR085, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR086, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR087, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR088, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR089, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR090, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR091, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR092, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR093, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR094, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR095, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR096, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR097, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR098, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP022, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP023, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP024, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER057, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER058, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER059, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER060, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER061, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER062, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER063, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER064, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR099, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR100, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR101, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR102, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR103, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR104, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR105, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR106, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR107, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR108, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR109, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR110, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR111, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR112, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB007, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB008, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP025, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP026, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP027, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER065, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER066, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER067, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER068, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER069, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER070, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER071, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER072, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR113, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR114, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR115, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR116, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR117, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR118, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR119, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR120, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR121, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR122, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR123, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR124, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR125, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR126, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP028, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP029, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP030, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER073, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER074, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER075, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER076, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER077, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER078, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER079, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER080, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR127, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR128, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR129, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR130, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR131, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR132, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR133, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR134, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR135, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR136, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR137, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR138, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR139, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR140, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB009, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB010, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP031, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP032, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP033, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER081, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER082, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER083, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER084, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER085, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER086, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER087, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER088, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR141, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR142, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR143, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR144, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR145, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR146, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR147, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR148, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR149, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR150, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR151, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR152, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR153, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR154, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP034, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP035, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP036, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER089, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER090, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER091, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER092, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER093, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER094, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER095, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER096, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR155, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR156, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR157, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR158, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR159, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR160, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR161, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR162, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR163, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR164, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR165, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR166, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR167, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR168, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB011, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB012, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP037, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP038, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP039, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER097, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER098, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER099, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER100, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER101, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER102, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER103, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER104, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR169, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR170, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR171, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR172, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR173, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR174, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR175, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR176, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR177, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR178, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR179, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR180, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR181, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR182, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP040, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP041, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP042, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER105, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER106, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER107, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER108, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER109, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER110, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER111, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER112, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR183, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR184, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR185, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR186, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR187, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR188, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR189, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR190, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR191, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR192, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR193, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR194, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR195, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR196, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB013, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB014, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP043, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP044, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP045, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER113, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER114, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER115, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER116, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER117, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER118, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER119, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER120, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR197, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR198, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR199, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR200, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR201, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR202, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR203, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR204, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR205, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR206, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR207, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR208, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR209, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR210, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP046, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP047, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP048, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER121, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER122, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER123, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER124, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER125, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER126, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER127, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER128, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR211, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR212, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR213, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR214, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR215, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR216, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR217, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR218, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR219, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR220, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR221, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR222, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR223, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR224, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB015, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB016, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP049, 
+       RelationshipEO.EXTN_ATTRIBUTE_TIMESTAMP050, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER129, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER130, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER131, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER132, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER133, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER134, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER135, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER136, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR225, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR226, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR227, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR228, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR229, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR230, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR231, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR232, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR233, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR234, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR235, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR236, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR237, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR238, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER137, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER138, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER139, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER140, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER141, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER142, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER143, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER144, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR239, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR240, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR241, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR242, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR243, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR244, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR245, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR246, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR247, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR248, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR249, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR250, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR251, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR252, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB017, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB018, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER145, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER146, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER147, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER148, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER149, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER150, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER151, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER152, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR253, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR254, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR255, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR256, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR257, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR258, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR259, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR260, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR261, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR262, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR263, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR264, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR265, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR266, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER153, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER154, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER155, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER156, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER157, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER158, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER159, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER160, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR267, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR268, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR269, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR270, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR271, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR272, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR273, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR274, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR275, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR276, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR277, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR278, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR279, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR280, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB019, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB020, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER161, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER162, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER163, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER164, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER165, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER166, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER167, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER168, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR281, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR282, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR283, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR284, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR285, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR286, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR287, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR288, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR289, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR290, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR291, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR292, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR293, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR294, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER169, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER170, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER171, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER172, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER173, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER174, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER175, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER176, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR295, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR296, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR297, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR298, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR299, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR300, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR301, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR302, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR303, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR304, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR305, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR306, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR307, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR308, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB021, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB022, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER177, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER178, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER179, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER180, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER181, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER182, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER183, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER184, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR309, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR310, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR311, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR312, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR313, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR314, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR315, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR316, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR317, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR318, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR319, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR320, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR321, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR322, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER185, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER186, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER187, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER188, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER189, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER190, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER191, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER192, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR323, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR324, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR325, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR326, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR327, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR328, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR329, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR330, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR331, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR332, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR333, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR334, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR335, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR336, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB023, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB024, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER193, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER194, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER195, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER196, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER197, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER198, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER199, 
+       RelationshipEO.EXTN_ATTRIBUTE_NUMBER200, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR337, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR338, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR339, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR340, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR341, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR342, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR343, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR344, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR345, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR346, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR347, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR348, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR349, 
+       RelationshipEO.EXTN_ATTRIBUTE_CHAR350, 
+       RelationshipEO.EXTN_ATTRIBUTE_CLOB025, 
+       RelationshipEO.ROWID" FromList="FUSION.HZ_RELATIONSHIPS RelationshipEO" BindingStyle="OracleName" CustomQuery="false" PageIterMode="Full">
+  <EntityUsage Name="RelationshipEO" Entity="oracle.app.cdm.diagram.entity.RelationshipEO"/>
+  <ViewAttribute Name="RelationshipRecId" IsNotNull="true" PrecisionRule="true" EntityAttrName="RelationshipRecId" EntityUsage="RelationshipEO" AliasName="RELATIONSHIP_REC_ID"/>
+  <ViewAttribute Name="RelationshipId" IsNotNull="true" PrecisionRule="true" EntityAttrName="RelationshipId" EntityUsage="RelationshipEO" AliasName="RELATIONSHIP_ID"/>
+  <ViewAttribute Name="SubjectId" IsNotNull="true" PrecisionRule="true" EntityAttrName="SubjectId" EntityUsage="RelationshipEO" AliasName="SUBJECT_ID"/>
+  <ViewAttribute Name="SubjectType" IsNotNull="true" PrecisionRule="true" EntityAttrName="SubjectType" EntityUsage="RelationshipEO" AliasName="SUBJECT_TYPE"/>
+  <ViewAttribute Name="SubjectTableName" IsNotNull="true" PrecisionRule="true" EntityAttrName="SubjectTableName" EntityUsage="RelationshipEO" AliasName="SUBJECT_TABLE_NAME"/>
+  <ViewAttribute Name="ObjectId" IsNotNull="true" PrecisionRule="true" EntityAttrName="ObjectId" EntityUsage="RelationshipEO" AliasName="OBJECT_ID"/>
+  <ViewAttribute Name="ObjectType" IsNotNull="true" PrecisionRule="true" EntityAttrName="ObjectType" EntityUsage="RelationshipEO" AliasName="OBJECT_TYPE"/>
+  <ViewAttribute Name="ObjectTableName" IsNotNull="true" PrecisionRule="true" EntityAttrName="ObjectTableName" EntityUsage="RelationshipEO" AliasName="OBJECT_TABLE_NAME"/>
+  <ViewAttribute Name="RelationshipCode" IsNotNull="true" PrecisionRule="true" EntityAttrName="RelationshipCode" EntityUsage="RelationshipEO" AliasName="RELATIONSHIP_CODE"/>
+  <ViewAttribute Name="DirectionalFlag" IsNotNull="true" PrecisionRule="true" EntityAttrName="DirectionalFlag" EntityUsage="RelationshipEO" AliasName="DIRECTIONAL_FLAG"/>
+  <ViewAttribute Name="Comments" PrecisionRule="true" EntityAttrName="Comments" EntityUsage="RelationshipEO" AliasName="COMMENTS"/>
+  <ViewAttribute Name="StartDate" IsNotNull="true" PrecisionRule="true" EntityAttrName="StartDate" EntityUsage="RelationshipEO" AliasName="START_DATE"/>
+  <ViewAttribute Name="EndDate" PrecisionRule="true" EntityAttrName="EndDate" EntityUsage="RelationshipEO" AliasName="END_DATE"/>
+  <ViewAttribute Name="Status" IsNotNull="true" PrecisionRule="true" EntityAttrName="Status" EntityUsage="RelationshipEO" AliasName="STATUS"/>
+  <ViewAttribute Name="CreatedBy" IsNotNull="true" PrecisionRule="true" EntityAttrName="CreatedBy" EntityUsage="RelationshipEO" AliasName="CREATED_BY"/>
+  <ViewAttribute Name="CreationDate" IsNotNull="true" PrecisionRule="true" EntityAttrName="CreationDate" EntityUsage="RelationshipEO" AliasName="CREATION_DATE"/>
+  <ViewAttribute Name="LastUpdatedBy" IsNotNull="true" PrecisionRule="true" EntityAttrName="LastUpdatedBy" EntityUsage="RelationshipEO" AliasName="LAST_UPDATED_BY"/>
+  <ViewAttribute Name="LastUpdateDate" IsNotNull="true" PrecisionRule="true" EntityAttrName="LastUpdateDate" EntityUsage="RelationshipEO" AliasName="LAST_UPDATE_DATE"/>
+  <ViewAttribute Name="LastUpdateLogin" PrecisionRule="true" EntityAttrName="LastUpdateLogin" EntityUsage="RelationshipEO" AliasName="LAST_UPDATE_LOGIN"/>
+  <ViewAttribute Name="RequestId" PrecisionRule="true" EntityAttrName="RequestId" EntityUsage="RelationshipEO" AliasName="REQUEST_ID"/>
+  <ViewAttribute Name="JobDefinitionName" PrecisionRule="true" EntityAttrName="JobDefinitionName" EntityUsage="RelationshipEO" AliasName="JOB_DEFINITION_NAME"/>
+  <ViewAttribute Name="JobDefinitionPackage" PrecisionRule="true" EntityAttrName="JobDefinitionPackage" EntityUsage="RelationshipEO" AliasName="JOB_DEFINITION_PACKAGE"/>
+  <ViewAttribute Name="AttributeCategory" PrecisionRule="true" EntityAttrName="AttributeCategory" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_CATEGORY"/>
+  <ViewAttribute Name="Attribute1" PrecisionRule="true" EntityAttrName="Attribute1" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE1"/>
+  <ViewAttribute Name="Attribute2" PrecisionRule="true" EntityAttrName="Attribute2" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE2"/>
+  <ViewAttribute Name="Attribute3" PrecisionRule="true" EntityAttrName="Attribute3" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE3"/>
+  <ViewAttribute Name="Attribute4" PrecisionRule="true" EntityAttrName="Attribute4" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE4"/>
+  <ViewAttribute Name="Attribute5" PrecisionRule="true" EntityAttrName="Attribute5" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE5"/>
+  <ViewAttribute Name="Attribute6" PrecisionRule="true" EntityAttrName="Attribute6" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE6"/>
+  <ViewAttribute Name="Attribute7" PrecisionRule="true" EntityAttrName="Attribute7" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE7"/>
+  <ViewAttribute Name="Attribute8" PrecisionRule="true" EntityAttrName="Attribute8" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE8"/>
+  <ViewAttribute Name="Attribute9" PrecisionRule="true" EntityAttrName="Attribute9" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE9"/>
+  <ViewAttribute Name="Attribute10" PrecisionRule="true" EntityAttrName="Attribute10" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE10"/>
+  <ViewAttribute Name="Attribute11" PrecisionRule="true" EntityAttrName="Attribute11" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE11"/>
+  <ViewAttribute Name="Attribute12" PrecisionRule="true" EntityAttrName="Attribute12" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE12"/>
+  <ViewAttribute Name="Attribute13" PrecisionRule="true" EntityAttrName="Attribute13" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE13"/>
+  <ViewAttribute Name="Attribute14" PrecisionRule="true" EntityAttrName="Attribute14" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE14"/>
+  <ViewAttribute Name="Attribute15" PrecisionRule="true" EntityAttrName="Attribute15" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE15"/>
+  <ViewAttribute Name="Attribute16" PrecisionRule="true" EntityAttrName="Attribute16" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE16"/>
+  <ViewAttribute Name="Attribute17" PrecisionRule="true" EntityAttrName="Attribute17" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE17"/>
+  <ViewAttribute Name="Attribute18" PrecisionRule="true" EntityAttrName="Attribute18" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE18"/>
+  <ViewAttribute Name="Attribute19" PrecisionRule="true" EntityAttrName="Attribute19" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE19"/>
+  <ViewAttribute Name="Attribute20" PrecisionRule="true" EntityAttrName="Attribute20" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE20"/>
+  <ViewAttribute Name="RelationshipType" IsNotNull="true" PrecisionRule="true" EntityAttrName="RelationshipType" EntityUsage="RelationshipEO" AliasName="RELATIONSHIP_TYPE"/>
+  <ViewAttribute Name="ObjectVersionNumber" IsNotNull="true" PrecisionRule="true" EntityAttrName="ObjectVersionNumber" EntityUsage="RelationshipEO" AliasName="OBJECT_VERSION_NUMBER"/>
+  <ViewAttribute Name="CreatedByModule" PrecisionRule="true" EntityAttrName="CreatedByModule" EntityUsage="RelationshipEO" AliasName="CREATED_BY_MODULE"/>
+  <ViewAttribute Name="AdditionalInformation1" PrecisionRule="true" EntityAttrName="AdditionalInformation1" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION1"/>
+  <ViewAttribute Name="AdditionalInformation2" PrecisionRule="true" EntityAttrName="AdditionalInformation2" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION2"/>
+  <ViewAttribute Name="AdditionalInformation3" PrecisionRule="true" EntityAttrName="AdditionalInformation3" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION3"/>
+  <ViewAttribute Name="AdditionalInformation4" PrecisionRule="true" EntityAttrName="AdditionalInformation4" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION4"/>
+  <ViewAttribute Name="AdditionalInformation5" PrecisionRule="true" EntityAttrName="AdditionalInformation5" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION5"/>
+  <ViewAttribute Name="AdditionalInformation6" PrecisionRule="true" EntityAttrName="AdditionalInformation6" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION6"/>
+  <ViewAttribute Name="AdditionalInformation7" PrecisionRule="true" EntityAttrName="AdditionalInformation7" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION7"/>
+  <ViewAttribute Name="AdditionalInformation8" PrecisionRule="true" EntityAttrName="AdditionalInformation8" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION8"/>
+  <ViewAttribute Name="AdditionalInformation9" PrecisionRule="true" EntityAttrName="AdditionalInformation9" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION9"/>
+  <ViewAttribute Name="AdditionalInformation10" PrecisionRule="true" EntityAttrName="AdditionalInformation10" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION10"/>
+  <ViewAttribute Name="AdditionalInformation11" PrecisionRule="true" EntityAttrName="AdditionalInformation11" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION11"/>
+  <ViewAttribute Name="AdditionalInformation12" PrecisionRule="true" EntityAttrName="AdditionalInformation12" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION12"/>
+  <ViewAttribute Name="AdditionalInformation13" PrecisionRule="true" EntityAttrName="AdditionalInformation13" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION13"/>
+  <ViewAttribute Name="AdditionalInformation14" PrecisionRule="true" EntityAttrName="AdditionalInformation14" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION14"/>
+  <ViewAttribute Name="AdditionalInformation15" PrecisionRule="true" EntityAttrName="AdditionalInformation15" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION15"/>
+  <ViewAttribute Name="AdditionalInformation16" PrecisionRule="true" EntityAttrName="AdditionalInformation16" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION16"/>
+  <ViewAttribute Name="AdditionalInformation17" PrecisionRule="true" EntityAttrName="AdditionalInformation17" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION17"/>
+  <ViewAttribute Name="AdditionalInformation18" PrecisionRule="true" EntityAttrName="AdditionalInformation18" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION18"/>
+  <ViewAttribute Name="AdditionalInformation19" PrecisionRule="true" EntityAttrName="AdditionalInformation19" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION19"/>
+  <ViewAttribute Name="AdditionalInformation20" PrecisionRule="true" EntityAttrName="AdditionalInformation20" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION20"/>
+  <ViewAttribute Name="AdditionalInformation21" PrecisionRule="true" EntityAttrName="AdditionalInformation21" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION21"/>
+  <ViewAttribute Name="AdditionalInformation22" PrecisionRule="true" EntityAttrName="AdditionalInformation22" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION22"/>
+  <ViewAttribute Name="AdditionalInformation23" PrecisionRule="true" EntityAttrName="AdditionalInformation23" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION23"/>
+  <ViewAttribute Name="AdditionalInformation24" PrecisionRule="true" EntityAttrName="AdditionalInformation24" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION24"/>
+  <ViewAttribute Name="AdditionalInformation25" PrecisionRule="true" EntityAttrName="AdditionalInformation25" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION25"/>
+  <ViewAttribute Name="AdditionalInformation26" PrecisionRule="true" EntityAttrName="AdditionalInformation26" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION26"/>
+  <ViewAttribute Name="AdditionalInformation27" PrecisionRule="true" EntityAttrName="AdditionalInformation27" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION27"/>
+  <ViewAttribute Name="AdditionalInformation28" PrecisionRule="true" EntityAttrName="AdditionalInformation28" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION28"/>
+  <ViewAttribute Name="AdditionalInformation29" PrecisionRule="true" EntityAttrName="AdditionalInformation29" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION29"/>
+  <ViewAttribute Name="AdditionalInformation30" PrecisionRule="true" EntityAttrName="AdditionalInformation30" EntityUsage="RelationshipEO" AliasName="ADDITIONAL_INFORMATION30"/>
+  <ViewAttribute Name="DirectionCode" PrecisionRule="true" EntityAttrName="DirectionCode" EntityUsage="RelationshipEO" AliasName="DIRECTION_CODE"/>
+  <ViewAttribute Name="PercentageOwnership" PrecisionRule="true" EntityAttrName="PercentageOwnership" EntityUsage="RelationshipEO" AliasName="PERCENTAGE_OWNERSHIP"/>
+  <ViewAttribute Name="ActualContentSource" IsNotNull="true" PrecisionRule="true" EntityAttrName="ActualContentSource" EntityUsage="RelationshipEO" AliasName="ACTUAL_CONTENT_SOURCE"/>
+  <ViewAttribute Name="DependentFlag" PrecisionRule="true" EntityAttrName="DependentFlag" EntityUsage="RelationshipEO" AliasName="DEPENDENT_FLAG"/>
+  <ViewAttribute Name="HeadOfHouseholdFlag" PrecisionRule="true" EntityAttrName="HeadOfHouseholdFlag" EntityUsage="RelationshipEO" AliasName="HEAD_OF_HOUSEHOLD_FLAG"/>
+  <ViewAttribute Name="SubjectUsageCode" PrecisionRule="true" EntityAttrName="SubjectUsageCode" EntityUsage="RelationshipEO" AliasName="SUBJECT_USAGE_CODE"/>
+  <ViewAttribute Name="ObjectUsageCode" PrecisionRule="true" EntityAttrName="ObjectUsageCode" EntityUsage="RelationshipEO" AliasName="OBJECT_USAGE_CODE"/>
+  <ViewAttribute Name="ConflictId" IsNotNull="true" PrecisionRule="true" EntityAttrName="ConflictId" EntityUsage="RelationshipEO" AliasName="CONFLICT_ID"/>
+  <ViewAttribute Name="UserLastUpdateDate" PrecisionRule="true" EntityAttrName="UserLastUpdateDate" EntityUsage="RelationshipEO" AliasName="USER_LAST_UPDATE_DATE"/>
+  <ViewAttribute Name="Attribute21" PrecisionRule="true" EntityAttrName="Attribute21" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE21"/>
+  <ViewAttribute Name="Attribute22" PrecisionRule="true" EntityAttrName="Attribute22" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE22"/>
+  <ViewAttribute Name="Attribute23" PrecisionRule="true" EntityAttrName="Attribute23" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE23"/>
+  <ViewAttribute Name="Attribute24" PrecisionRule="true" EntityAttrName="Attribute24" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE24"/>
+  <ViewAttribute Name="Attribute25" PrecisionRule="true" EntityAttrName="Attribute25" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE25"/>
+  <ViewAttribute Name="Attribute26" PrecisionRule="true" EntityAttrName="Attribute26" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE26"/>
+  <ViewAttribute Name="Attribute27" PrecisionRule="true" EntityAttrName="Attribute27" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE27"/>
+  <ViewAttribute Name="Attribute28" PrecisionRule="true" EntityAttrName="Attribute28" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE28"/>
+  <ViewAttribute Name="Attribute29" PrecisionRule="true" EntityAttrName="Attribute29" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE29"/>
+  <ViewAttribute Name="Attribute30" PrecisionRule="true" EntityAttrName="Attribute30" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE30"/>
+  <ViewAttribute Name="CpdrfVerSor" PrecisionRule="true" EntityAttrName="CpdrfVerSor" EntityUsage="RelationshipEO" AliasName="CPDRF_VER_SOR"/>
+  <ViewAttribute Name="CpdrfVerPillar" PrecisionRule="true" EntityAttrName="CpdrfVerPillar" EntityUsage="RelationshipEO" AliasName="CPDRF_VER_PILLAR"/>
+  <ViewAttribute Name="CpdrfLastUpd" PrecisionRule="true" EntityAttrName="CpdrfLastUpd" EntityUsage="RelationshipEO" AliasName="CPDRF_LAST_UPD"/>
+  <ViewAttribute Name="AttributeNumber1" PrecisionRule="true" EntityAttrName="AttributeNumber1" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER1"/>
+  <ViewAttribute Name="AttributeNumber2" PrecisionRule="true" EntityAttrName="AttributeNumber2" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER2"/>
+  <ViewAttribute Name="AttributeNumber3" PrecisionRule="true" EntityAttrName="AttributeNumber3" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER3"/>
+  <ViewAttribute Name="AttributeNumber4" PrecisionRule="true" EntityAttrName="AttributeNumber4" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER4"/>
+  <ViewAttribute Name="AttributeNumber5" PrecisionRule="true" EntityAttrName="AttributeNumber5" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER5"/>
+  <ViewAttribute Name="AttributeNumber6" PrecisionRule="true" EntityAttrName="AttributeNumber6" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER6"/>
+  <ViewAttribute Name="AttributeNumber7" PrecisionRule="true" EntityAttrName="AttributeNumber7" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER7"/>
+  <ViewAttribute Name="AttributeNumber8" PrecisionRule="true" EntityAttrName="AttributeNumber8" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER8"/>
+  <ViewAttribute Name="AttributeNumber9" PrecisionRule="true" EntityAttrName="AttributeNumber9" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER9"/>
+  <ViewAttribute Name="AttributeNumber10" PrecisionRule="true" EntityAttrName="AttributeNumber10" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER10"/>
+  <ViewAttribute Name="AttributeNumber11" PrecisionRule="true" EntityAttrName="AttributeNumber11" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER11"/>
+  <ViewAttribute Name="AttributeNumber12" PrecisionRule="true" EntityAttrName="AttributeNumber12" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_NUMBER12"/>
+  <ViewAttribute Name="AttributeDate1" PrecisionRule="true" EntityAttrName="AttributeDate1" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE1"/>
+  <ViewAttribute Name="AttributeDate2" PrecisionRule="true" EntityAttrName="AttributeDate2" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE2"/>
+  <ViewAttribute Name="AttributeDate3" PrecisionRule="true" EntityAttrName="AttributeDate3" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE3"/>
+  <ViewAttribute Name="AttributeDate4" PrecisionRule="true" EntityAttrName="AttributeDate4" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE4"/>
+  <ViewAttribute Name="AttributeDate5" PrecisionRule="true" EntityAttrName="AttributeDate5" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE5"/>
+  <ViewAttribute Name="AttributeDate6" PrecisionRule="true" EntityAttrName="AttributeDate6" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE6"/>
+  <ViewAttribute Name="AttributeDate7" PrecisionRule="true" EntityAttrName="AttributeDate7" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE7"/>
+  <ViewAttribute Name="AttributeDate8" PrecisionRule="true" EntityAttrName="AttributeDate8" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE8"/>
+  <ViewAttribute Name="AttributeDate9" PrecisionRule="true" EntityAttrName="AttributeDate9" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE9"/>
+  <ViewAttribute Name="AttributeDate10" PrecisionRule="true" EntityAttrName="AttributeDate10" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE10"/>
+  <ViewAttribute Name="AttributeDate11" PrecisionRule="true" EntityAttrName="AttributeDate11" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE11"/>
+  <ViewAttribute Name="AttributeDate12" PrecisionRule="true" EntityAttrName="AttributeDate12" EntityUsage="RelationshipEO" AliasName="ATTRIBUTE_DATE12"/>
+  <ViewAttribute Name="CurrencyCode" PrecisionRule="true" EntityAttrName="CurrencyCode" EntityUsage="RelationshipEO" AliasName="CURRENCY_CODE"/>
+  <ViewAttribute Name="CorpCurrencyCode" PrecisionRule="true" EntityAttrName="CorpCurrencyCode" EntityUsage="RelationshipEO" AliasName="CORP_CURRENCY_CODE"/>
+  <ViewAttribute Name="CurcyConvRateType" PrecisionRule="true" EntityAttrName="CurcyConvRateType" EntityUsage="RelationshipEO" AliasName="CURCY_CONV_RATE_TYPE"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp001" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp001" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP001"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp002" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp002" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP002"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp003" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp003" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP003"/>
+  <ViewAttribute Name="ExtnAttributeNumber001" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber001" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER001"/>
+  <ViewAttribute Name="ExtnAttributeNumber002" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber002" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER002"/>
+  <ViewAttribute Name="ExtnAttributeNumber003" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber003" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER003"/>
+  <ViewAttribute Name="ExtnAttributeNumber004" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber004" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER004"/>
+  <ViewAttribute Name="ExtnAttributeNumber005" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber005" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER005"/>
+  <ViewAttribute Name="ExtnAttributeNumber006" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber006" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER006"/>
+  <ViewAttribute Name="ExtnAttributeNumber007" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber007" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER007"/>
+  <ViewAttribute Name="ExtnAttributeNumber008" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber008" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER008"/>
+  <ViewAttribute Name="ExtnAttributeChar001" PrecisionRule="true" EntityAttrName="ExtnAttributeChar001" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR001"/>
+  <ViewAttribute Name="ExtnAttributeChar002" PrecisionRule="true" EntityAttrName="ExtnAttributeChar002" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR002"/>
+  <ViewAttribute Name="ExtnAttributeChar003" PrecisionRule="true" EntityAttrName="ExtnAttributeChar003" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR003"/>
+  <ViewAttribute Name="ExtnAttributeChar004" PrecisionRule="true" EntityAttrName="ExtnAttributeChar004" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR004"/>
+  <ViewAttribute Name="ExtnAttributeChar005" PrecisionRule="true" EntityAttrName="ExtnAttributeChar005" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR005"/>
+  <ViewAttribute Name="ExtnAttributeChar006" PrecisionRule="true" EntityAttrName="ExtnAttributeChar006" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR006"/>
+  <ViewAttribute Name="ExtnAttributeChar007" PrecisionRule="true" EntityAttrName="ExtnAttributeChar007" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR007"/>
+  <ViewAttribute Name="ExtnAttributeChar008" PrecisionRule="true" EntityAttrName="ExtnAttributeChar008" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR008"/>
+  <ViewAttribute Name="ExtnAttributeChar009" PrecisionRule="true" EntityAttrName="ExtnAttributeChar009" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR009"/>
+  <ViewAttribute Name="ExtnAttributeChar010" PrecisionRule="true" EntityAttrName="ExtnAttributeChar010" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR010"/>
+  <ViewAttribute Name="ExtnAttributeChar011" PrecisionRule="true" EntityAttrName="ExtnAttributeChar011" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR011"/>
+  <ViewAttribute Name="ExtnAttributeChar012" PrecisionRule="true" EntityAttrName="ExtnAttributeChar012" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR012"/>
+  <ViewAttribute Name="ExtnAttributeChar013" PrecisionRule="true" EntityAttrName="ExtnAttributeChar013" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR013"/>
+  <ViewAttribute Name="ExtnAttributeChar014" PrecisionRule="true" EntityAttrName="ExtnAttributeChar014" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR014"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp004" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp004" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP004"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp005" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp005" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP005"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp006" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp006" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP006"/>
+  <ViewAttribute Name="ExtnAttributeNumber009" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber009" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER009"/>
+  <ViewAttribute Name="ExtnAttributeNumber010" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber010" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER010"/>
+  <ViewAttribute Name="ExtnAttributeNumber011" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber011" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER011"/>
+  <ViewAttribute Name="ExtnAttributeNumber012" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber012" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER012"/>
+  <ViewAttribute Name="ExtnAttributeNumber013" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber013" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER013"/>
+  <ViewAttribute Name="ExtnAttributeNumber014" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber014" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER014"/>
+  <ViewAttribute Name="ExtnAttributeNumber015" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber015" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER015"/>
+  <ViewAttribute Name="ExtnAttributeNumber016" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber016" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER016"/>
+  <ViewAttribute Name="ExtnAttributeChar015" PrecisionRule="true" EntityAttrName="ExtnAttributeChar015" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR015"/>
+  <ViewAttribute Name="ExtnAttributeChar016" PrecisionRule="true" EntityAttrName="ExtnAttributeChar016" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR016"/>
+  <ViewAttribute Name="ExtnAttributeChar017" PrecisionRule="true" EntityAttrName="ExtnAttributeChar017" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR017"/>
+  <ViewAttribute Name="ExtnAttributeChar018" PrecisionRule="true" EntityAttrName="ExtnAttributeChar018" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR018"/>
+  <ViewAttribute Name="ExtnAttributeChar019" PrecisionRule="true" EntityAttrName="ExtnAttributeChar019" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR019"/>
+  <ViewAttribute Name="ExtnAttributeChar020" PrecisionRule="true" EntityAttrName="ExtnAttributeChar020" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR020"/>
+  <ViewAttribute Name="ExtnAttributeChar021" PrecisionRule="true" EntityAttrName="ExtnAttributeChar021" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR021"/>
+  <ViewAttribute Name="ExtnAttributeChar022" PrecisionRule="true" EntityAttrName="ExtnAttributeChar022" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR022"/>
+  <ViewAttribute Name="ExtnAttributeChar023" PrecisionRule="true" EntityAttrName="ExtnAttributeChar023" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR023"/>
+  <ViewAttribute Name="ExtnAttributeChar024" PrecisionRule="true" EntityAttrName="ExtnAttributeChar024" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR024"/>
+  <ViewAttribute Name="ExtnAttributeChar025" PrecisionRule="true" EntityAttrName="ExtnAttributeChar025" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR025"/>
+  <ViewAttribute Name="ExtnAttributeChar026" PrecisionRule="true" EntityAttrName="ExtnAttributeChar026" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR026"/>
+  <ViewAttribute Name="ExtnAttributeChar027" PrecisionRule="true" EntityAttrName="ExtnAttributeChar027" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR027"/>
+  <ViewAttribute Name="ExtnAttributeChar028" PrecisionRule="true" EntityAttrName="ExtnAttributeChar028" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR028"/>
+  <ViewAttribute Name="ExtnAttributeClob001" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob001" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB001"/>
+  <ViewAttribute Name="ExtnAttributeClob002" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob002" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB002"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp007" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp007" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP007"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp008" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp008" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP008"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp009" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp009" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP009"/>
+  <ViewAttribute Name="ExtnAttributeNumber017" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber017" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER017"/>
+  <ViewAttribute Name="ExtnAttributeNumber018" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber018" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER018"/>
+  <ViewAttribute Name="ExtnAttributeNumber019" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber019" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER019"/>
+  <ViewAttribute Name="ExtnAttributeNumber020" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber020" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER020"/>
+  <ViewAttribute Name="ExtnAttributeNumber021" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber021" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER021"/>
+  <ViewAttribute Name="ExtnAttributeNumber022" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber022" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER022"/>
+  <ViewAttribute Name="ExtnAttributeNumber023" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber023" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER023"/>
+  <ViewAttribute Name="ExtnAttributeNumber024" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber024" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER024"/>
+  <ViewAttribute Name="ExtnAttributeChar029" PrecisionRule="true" EntityAttrName="ExtnAttributeChar029" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR029"/>
+  <ViewAttribute Name="ExtnAttributeChar030" PrecisionRule="true" EntityAttrName="ExtnAttributeChar030" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR030"/>
+  <ViewAttribute Name="ExtnAttributeChar031" PrecisionRule="true" EntityAttrName="ExtnAttributeChar031" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR031"/>
+  <ViewAttribute Name="ExtnAttributeChar032" PrecisionRule="true" EntityAttrName="ExtnAttributeChar032" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR032"/>
+  <ViewAttribute Name="ExtnAttributeChar033" PrecisionRule="true" EntityAttrName="ExtnAttributeChar033" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR033"/>
+  <ViewAttribute Name="ExtnAttributeChar034" PrecisionRule="true" EntityAttrName="ExtnAttributeChar034" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR034"/>
+  <ViewAttribute Name="ExtnAttributeChar035" PrecisionRule="true" EntityAttrName="ExtnAttributeChar035" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR035"/>
+  <ViewAttribute Name="ExtnAttributeChar036" PrecisionRule="true" EntityAttrName="ExtnAttributeChar036" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR036"/>
+  <ViewAttribute Name="ExtnAttributeChar037" PrecisionRule="true" EntityAttrName="ExtnAttributeChar037" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR037"/>
+  <ViewAttribute Name="ExtnAttributeChar038" PrecisionRule="true" EntityAttrName="ExtnAttributeChar038" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR038"/>
+  <ViewAttribute Name="ExtnAttributeChar039" PrecisionRule="true" EntityAttrName="ExtnAttributeChar039" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR039"/>
+  <ViewAttribute Name="ExtnAttributeChar040" PrecisionRule="true" EntityAttrName="ExtnAttributeChar040" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR040"/>
+  <ViewAttribute Name="ExtnAttributeChar041" PrecisionRule="true" EntityAttrName="ExtnAttributeChar041" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR041"/>
+  <ViewAttribute Name="ExtnAttributeChar042" PrecisionRule="true" EntityAttrName="ExtnAttributeChar042" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR042"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp010" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp010" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP010"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp011" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp011" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP011"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp012" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp012" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP012"/>
+  <ViewAttribute Name="ExtnAttributeNumber025" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber025" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER025"/>
+  <ViewAttribute Name="ExtnAttributeNumber026" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber026" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER026"/>
+  <ViewAttribute Name="ExtnAttributeNumber027" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber027" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER027"/>
+  <ViewAttribute Name="ExtnAttributeNumber028" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber028" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER028"/>
+  <ViewAttribute Name="ExtnAttributeNumber029" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber029" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER029"/>
+  <ViewAttribute Name="ExtnAttributeNumber030" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber030" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER030"/>
+  <ViewAttribute Name="ExtnAttributeNumber031" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber031" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER031"/>
+  <ViewAttribute Name="ExtnAttributeNumber032" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber032" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER032"/>
+  <ViewAttribute Name="ExtnAttributeChar043" PrecisionRule="true" EntityAttrName="ExtnAttributeChar043" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR043"/>
+  <ViewAttribute Name="ExtnAttributeChar044" PrecisionRule="true" EntityAttrName="ExtnAttributeChar044" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR044"/>
+  <ViewAttribute Name="ExtnAttributeChar045" PrecisionRule="true" EntityAttrName="ExtnAttributeChar045" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR045"/>
+  <ViewAttribute Name="ExtnAttributeChar046" PrecisionRule="true" EntityAttrName="ExtnAttributeChar046" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR046"/>
+  <ViewAttribute Name="ExtnAttributeChar047" PrecisionRule="true" EntityAttrName="ExtnAttributeChar047" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR047"/>
+  <ViewAttribute Name="ExtnAttributeChar048" PrecisionRule="true" EntityAttrName="ExtnAttributeChar048" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR048"/>
+  <ViewAttribute Name="ExtnAttributeChar049" PrecisionRule="true" EntityAttrName="ExtnAttributeChar049" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR049"/>
+  <ViewAttribute Name="ExtnAttributeChar050" PrecisionRule="true" EntityAttrName="ExtnAttributeChar050" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR050"/>
+  <ViewAttribute Name="ExtnAttributeChar051" PrecisionRule="true" EntityAttrName="ExtnAttributeChar051" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR051"/>
+  <ViewAttribute Name="ExtnAttributeChar052" PrecisionRule="true" EntityAttrName="ExtnAttributeChar052" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR052"/>
+  <ViewAttribute Name="ExtnAttributeChar053" PrecisionRule="true" EntityAttrName="ExtnAttributeChar053" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR053"/>
+  <ViewAttribute Name="ExtnAttributeChar054" PrecisionRule="true" EntityAttrName="ExtnAttributeChar054" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR054"/>
+  <ViewAttribute Name="ExtnAttributeChar055" PrecisionRule="true" EntityAttrName="ExtnAttributeChar055" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR055"/>
+  <ViewAttribute Name="ExtnAttributeChar056" PrecisionRule="true" EntityAttrName="ExtnAttributeChar056" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR056"/>
+  <ViewAttribute Name="ExtnAttributeClob003" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob003" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB003"/>
+  <ViewAttribute Name="ExtnAttributeClob004" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob004" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB004"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp013" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp013" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP013"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp014" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp014" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP014"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp015" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp015" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP015"/>
+  <ViewAttribute Name="ExtnAttributeNumber033" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber033" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER033"/>
+  <ViewAttribute Name="ExtnAttributeNumber034" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber034" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER034"/>
+  <ViewAttribute Name="ExtnAttributeNumber035" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber035" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER035"/>
+  <ViewAttribute Name="ExtnAttributeNumber036" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber036" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER036"/>
+  <ViewAttribute Name="ExtnAttributeNumber037" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber037" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER037"/>
+  <ViewAttribute Name="ExtnAttributeNumber038" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber038" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER038"/>
+  <ViewAttribute Name="ExtnAttributeNumber039" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber039" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER039"/>
+  <ViewAttribute Name="ExtnAttributeNumber040" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber040" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER040"/>
+  <ViewAttribute Name="ExtnAttributeChar057" PrecisionRule="true" EntityAttrName="ExtnAttributeChar057" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR057"/>
+  <ViewAttribute Name="ExtnAttributeChar058" PrecisionRule="true" EntityAttrName="ExtnAttributeChar058" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR058"/>
+  <ViewAttribute Name="ExtnAttributeChar059" PrecisionRule="true" EntityAttrName="ExtnAttributeChar059" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR059"/>
+  <ViewAttribute Name="ExtnAttributeChar060" PrecisionRule="true" EntityAttrName="ExtnAttributeChar060" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR060"/>
+  <ViewAttribute Name="ExtnAttributeChar061" PrecisionRule="true" EntityAttrName="ExtnAttributeChar061" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR061"/>
+  <ViewAttribute Name="ExtnAttributeChar062" PrecisionRule="true" EntityAttrName="ExtnAttributeChar062" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR062"/>
+  <ViewAttribute Name="ExtnAttributeChar063" PrecisionRule="true" EntityAttrName="ExtnAttributeChar063" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR063"/>
+  <ViewAttribute Name="ExtnAttributeChar064" PrecisionRule="true" EntityAttrName="ExtnAttributeChar064" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR064"/>
+  <ViewAttribute Name="ExtnAttributeChar065" PrecisionRule="true" EntityAttrName="ExtnAttributeChar065" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR065"/>
+  <ViewAttribute Name="ExtnAttributeChar066" PrecisionRule="true" EntityAttrName="ExtnAttributeChar066" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR066"/>
+  <ViewAttribute Name="ExtnAttributeChar067" PrecisionRule="true" EntityAttrName="ExtnAttributeChar067" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR067"/>
+  <ViewAttribute Name="ExtnAttributeChar068" PrecisionRule="true" EntityAttrName="ExtnAttributeChar068" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR068"/>
+  <ViewAttribute Name="ExtnAttributeChar069" PrecisionRule="true" EntityAttrName="ExtnAttributeChar069" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR069"/>
+  <ViewAttribute Name="ExtnAttributeChar070" PrecisionRule="true" EntityAttrName="ExtnAttributeChar070" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR070"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp016" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp016" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP016"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp017" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp017" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP017"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp018" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp018" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP018"/>
+  <ViewAttribute Name="ExtnAttributeNumber041" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber041" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER041"/>
+  <ViewAttribute Name="ExtnAttributeNumber042" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber042" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER042"/>
+  <ViewAttribute Name="ExtnAttributeNumber043" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber043" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER043"/>
+  <ViewAttribute Name="ExtnAttributeNumber044" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber044" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER044"/>
+  <ViewAttribute Name="ExtnAttributeNumber045" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber045" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER045"/>
+  <ViewAttribute Name="ExtnAttributeNumber046" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber046" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER046"/>
+  <ViewAttribute Name="ExtnAttributeNumber047" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber047" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER047"/>
+  <ViewAttribute Name="ExtnAttributeNumber048" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber048" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER048"/>
+  <ViewAttribute Name="ExtnAttributeChar071" PrecisionRule="true" EntityAttrName="ExtnAttributeChar071" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR071"/>
+  <ViewAttribute Name="ExtnAttributeChar072" PrecisionRule="true" EntityAttrName="ExtnAttributeChar072" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR072"/>
+  <ViewAttribute Name="ExtnAttributeChar073" PrecisionRule="true" EntityAttrName="ExtnAttributeChar073" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR073"/>
+  <ViewAttribute Name="ExtnAttributeChar074" PrecisionRule="true" EntityAttrName="ExtnAttributeChar074" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR074"/>
+  <ViewAttribute Name="ExtnAttributeChar075" PrecisionRule="true" EntityAttrName="ExtnAttributeChar075" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR075"/>
+  <ViewAttribute Name="ExtnAttributeChar076" PrecisionRule="true" EntityAttrName="ExtnAttributeChar076" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR076"/>
+  <ViewAttribute Name="ExtnAttributeChar077" PrecisionRule="true" EntityAttrName="ExtnAttributeChar077" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR077"/>
+  <ViewAttribute Name="ExtnAttributeChar078" PrecisionRule="true" EntityAttrName="ExtnAttributeChar078" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR078"/>
+  <ViewAttribute Name="ExtnAttributeChar079" PrecisionRule="true" EntityAttrName="ExtnAttributeChar079" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR079"/>
+  <ViewAttribute Name="ExtnAttributeChar080" PrecisionRule="true" EntityAttrName="ExtnAttributeChar080" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR080"/>
+  <ViewAttribute Name="ExtnAttributeChar081" PrecisionRule="true" EntityAttrName="ExtnAttributeChar081" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR081"/>
+  <ViewAttribute Name="ExtnAttributeChar082" PrecisionRule="true" EntityAttrName="ExtnAttributeChar082" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR082"/>
+  <ViewAttribute Name="ExtnAttributeChar083" PrecisionRule="true" EntityAttrName="ExtnAttributeChar083" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR083"/>
+  <ViewAttribute Name="ExtnAttributeChar084" PrecisionRule="true" EntityAttrName="ExtnAttributeChar084" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR084"/>
+  <ViewAttribute Name="ExtnAttributeClob005" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob005" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB005"/>
+  <ViewAttribute Name="ExtnAttributeClob006" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob006" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB006"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp019" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp019" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP019"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp020" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp020" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP020"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp021" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp021" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP021"/>
+  <ViewAttribute Name="ExtnAttributeNumber049" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber049" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER049"/>
+  <ViewAttribute Name="ExtnAttributeNumber050" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber050" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER050"/>
+  <ViewAttribute Name="ExtnAttributeNumber051" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber051" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER051"/>
+  <ViewAttribute Name="ExtnAttributeNumber052" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber052" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER052"/>
+  <ViewAttribute Name="ExtnAttributeNumber053" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber053" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER053"/>
+  <ViewAttribute Name="ExtnAttributeNumber054" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber054" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER054"/>
+  <ViewAttribute Name="ExtnAttributeNumber055" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber055" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER055"/>
+  <ViewAttribute Name="ExtnAttributeNumber056" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber056" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER056"/>
+  <ViewAttribute Name="ExtnAttributeChar085" PrecisionRule="true" EntityAttrName="ExtnAttributeChar085" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR085"/>
+  <ViewAttribute Name="ExtnAttributeChar086" PrecisionRule="true" EntityAttrName="ExtnAttributeChar086" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR086"/>
+  <ViewAttribute Name="ExtnAttributeChar087" PrecisionRule="true" EntityAttrName="ExtnAttributeChar087" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR087"/>
+  <ViewAttribute Name="ExtnAttributeChar088" PrecisionRule="true" EntityAttrName="ExtnAttributeChar088" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR088"/>
+  <ViewAttribute Name="ExtnAttributeChar089" PrecisionRule="true" EntityAttrName="ExtnAttributeChar089" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR089"/>
+  <ViewAttribute Name="ExtnAttributeChar090" PrecisionRule="true" EntityAttrName="ExtnAttributeChar090" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR090"/>
+  <ViewAttribute Name="ExtnAttributeChar091" PrecisionRule="true" EntityAttrName="ExtnAttributeChar091" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR091"/>
+  <ViewAttribute Name="ExtnAttributeChar092" PrecisionRule="true" EntityAttrName="ExtnAttributeChar092" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR092"/>
+  <ViewAttribute Name="ExtnAttributeChar093" PrecisionRule="true" EntityAttrName="ExtnAttributeChar093" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR093"/>
+  <ViewAttribute Name="ExtnAttributeChar094" PrecisionRule="true" EntityAttrName="ExtnAttributeChar094" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR094"/>
+  <ViewAttribute Name="ExtnAttributeChar095" PrecisionRule="true" EntityAttrName="ExtnAttributeChar095" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR095"/>
+  <ViewAttribute Name="ExtnAttributeChar096" PrecisionRule="true" EntityAttrName="ExtnAttributeChar096" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR096"/>
+  <ViewAttribute Name="ExtnAttributeChar097" PrecisionRule="true" EntityAttrName="ExtnAttributeChar097" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR097"/>
+  <ViewAttribute Name="ExtnAttributeChar098" PrecisionRule="true" EntityAttrName="ExtnAttributeChar098" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR098"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp022" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp022" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP022"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp023" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp023" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP023"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp024" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp024" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP024"/>
+  <ViewAttribute Name="ExtnAttributeNumber057" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber057" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER057"/>
+  <ViewAttribute Name="ExtnAttributeNumber058" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber058" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER058"/>
+  <ViewAttribute Name="ExtnAttributeNumber059" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber059" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER059"/>
+  <ViewAttribute Name="ExtnAttributeNumber060" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber060" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER060"/>
+  <ViewAttribute Name="ExtnAttributeNumber061" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber061" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER061"/>
+  <ViewAttribute Name="ExtnAttributeNumber062" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber062" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER062"/>
+  <ViewAttribute Name="ExtnAttributeNumber063" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber063" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER063"/>
+  <ViewAttribute Name="ExtnAttributeNumber064" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber064" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER064"/>
+  <ViewAttribute Name="ExtnAttributeChar099" PrecisionRule="true" EntityAttrName="ExtnAttributeChar099" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR099"/>
+  <ViewAttribute Name="ExtnAttributeChar100" PrecisionRule="true" EntityAttrName="ExtnAttributeChar100" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR100"/>
+  <ViewAttribute Name="ExtnAttributeChar101" PrecisionRule="true" EntityAttrName="ExtnAttributeChar101" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR101"/>
+  <ViewAttribute Name="ExtnAttributeChar102" PrecisionRule="true" EntityAttrName="ExtnAttributeChar102" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR102"/>
+  <ViewAttribute Name="ExtnAttributeChar103" PrecisionRule="true" EntityAttrName="ExtnAttributeChar103" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR103"/>
+  <ViewAttribute Name="ExtnAttributeChar104" PrecisionRule="true" EntityAttrName="ExtnAttributeChar104" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR104"/>
+  <ViewAttribute Name="ExtnAttributeChar105" PrecisionRule="true" EntityAttrName="ExtnAttributeChar105" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR105"/>
+  <ViewAttribute Name="ExtnAttributeChar106" PrecisionRule="true" EntityAttrName="ExtnAttributeChar106" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR106"/>
+  <ViewAttribute Name="ExtnAttributeChar107" PrecisionRule="true" EntityAttrName="ExtnAttributeChar107" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR107"/>
+  <ViewAttribute Name="ExtnAttributeChar108" PrecisionRule="true" EntityAttrName="ExtnAttributeChar108" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR108"/>
+  <ViewAttribute Name="ExtnAttributeChar109" PrecisionRule="true" EntityAttrName="ExtnAttributeChar109" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR109"/>
+  <ViewAttribute Name="ExtnAttributeChar110" PrecisionRule="true" EntityAttrName="ExtnAttributeChar110" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR110"/>
+  <ViewAttribute Name="ExtnAttributeChar111" PrecisionRule="true" EntityAttrName="ExtnAttributeChar111" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR111"/>
+  <ViewAttribute Name="ExtnAttributeChar112" PrecisionRule="true" EntityAttrName="ExtnAttributeChar112" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR112"/>
+  <ViewAttribute Name="ExtnAttributeClob007" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob007" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB007"/>
+  <ViewAttribute Name="ExtnAttributeClob008" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob008" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB008"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp025" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp025" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP025"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp026" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp026" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP026"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp027" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp027" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP027"/>
+  <ViewAttribute Name="ExtnAttributeNumber065" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber065" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER065"/>
+  <ViewAttribute Name="ExtnAttributeNumber066" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber066" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER066"/>
+  <ViewAttribute Name="ExtnAttributeNumber067" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber067" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER067"/>
+  <ViewAttribute Name="ExtnAttributeNumber068" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber068" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER068"/>
+  <ViewAttribute Name="ExtnAttributeNumber069" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber069" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER069"/>
+  <ViewAttribute Name="ExtnAttributeNumber070" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber070" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER070"/>
+  <ViewAttribute Name="ExtnAttributeNumber071" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber071" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER071"/>
+  <ViewAttribute Name="ExtnAttributeNumber072" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber072" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER072"/>
+  <ViewAttribute Name="ExtnAttributeChar113" PrecisionRule="true" EntityAttrName="ExtnAttributeChar113" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR113"/>
+  <ViewAttribute Name="ExtnAttributeChar114" PrecisionRule="true" EntityAttrName="ExtnAttributeChar114" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR114"/>
+  <ViewAttribute Name="ExtnAttributeChar115" PrecisionRule="true" EntityAttrName="ExtnAttributeChar115" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR115"/>
+  <ViewAttribute Name="ExtnAttributeChar116" PrecisionRule="true" EntityAttrName="ExtnAttributeChar116" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR116"/>
+  <ViewAttribute Name="ExtnAttributeChar117" PrecisionRule="true" EntityAttrName="ExtnAttributeChar117" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR117"/>
+  <ViewAttribute Name="ExtnAttributeChar118" PrecisionRule="true" EntityAttrName="ExtnAttributeChar118" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR118"/>
+  <ViewAttribute Name="ExtnAttributeChar119" PrecisionRule="true" EntityAttrName="ExtnAttributeChar119" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR119"/>
+  <ViewAttribute Name="ExtnAttributeChar120" PrecisionRule="true" EntityAttrName="ExtnAttributeChar120" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR120"/>
+  <ViewAttribute Name="ExtnAttributeChar121" PrecisionRule="true" EntityAttrName="ExtnAttributeChar121" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR121"/>
+  <ViewAttribute Name="ExtnAttributeChar122" PrecisionRule="true" EntityAttrName="ExtnAttributeChar122" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR122"/>
+  <ViewAttribute Name="ExtnAttributeChar123" PrecisionRule="true" EntityAttrName="ExtnAttributeChar123" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR123"/>
+  <ViewAttribute Name="ExtnAttributeChar124" PrecisionRule="true" EntityAttrName="ExtnAttributeChar124" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR124"/>
+  <ViewAttribute Name="ExtnAttributeChar125" PrecisionRule="true" EntityAttrName="ExtnAttributeChar125" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR125"/>
+  <ViewAttribute Name="ExtnAttributeChar126" PrecisionRule="true" EntityAttrName="ExtnAttributeChar126" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR126"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp028" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp028" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP028"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp029" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp029" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP029"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp030" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp030" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP030"/>
+  <ViewAttribute Name="ExtnAttributeNumber073" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber073" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER073"/>
+  <ViewAttribute Name="ExtnAttributeNumber074" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber074" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER074"/>
+  <ViewAttribute Name="ExtnAttributeNumber075" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber075" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER075"/>
+  <ViewAttribute Name="ExtnAttributeNumber076" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber076" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER076"/>
+  <ViewAttribute Name="ExtnAttributeNumber077" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber077" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER077"/>
+  <ViewAttribute Name="ExtnAttributeNumber078" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber078" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER078"/>
+  <ViewAttribute Name="ExtnAttributeNumber079" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber079" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER079"/>
+  <ViewAttribute Name="ExtnAttributeNumber080" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber080" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER080"/>
+  <ViewAttribute Name="ExtnAttributeChar127" PrecisionRule="true" EntityAttrName="ExtnAttributeChar127" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR127"/>
+  <ViewAttribute Name="ExtnAttributeChar128" PrecisionRule="true" EntityAttrName="ExtnAttributeChar128" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR128"/>
+  <ViewAttribute Name="ExtnAttributeChar129" PrecisionRule="true" EntityAttrName="ExtnAttributeChar129" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR129"/>
+  <ViewAttribute Name="ExtnAttributeChar130" PrecisionRule="true" EntityAttrName="ExtnAttributeChar130" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR130"/>
+  <ViewAttribute Name="ExtnAttributeChar131" PrecisionRule="true" EntityAttrName="ExtnAttributeChar131" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR131"/>
+  <ViewAttribute Name="ExtnAttributeChar132" PrecisionRule="true" EntityAttrName="ExtnAttributeChar132" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR132"/>
+  <ViewAttribute Name="ExtnAttributeChar133" PrecisionRule="true" EntityAttrName="ExtnAttributeChar133" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR133"/>
+  <ViewAttribute Name="ExtnAttributeChar134" PrecisionRule="true" EntityAttrName="ExtnAttributeChar134" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR134"/>
+  <ViewAttribute Name="ExtnAttributeChar135" PrecisionRule="true" EntityAttrName="ExtnAttributeChar135" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR135"/>
+  <ViewAttribute Name="ExtnAttributeChar136" PrecisionRule="true" EntityAttrName="ExtnAttributeChar136" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR136"/>
+  <ViewAttribute Name="ExtnAttributeChar137" PrecisionRule="true" EntityAttrName="ExtnAttributeChar137" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR137"/>
+  <ViewAttribute Name="ExtnAttributeChar138" PrecisionRule="true" EntityAttrName="ExtnAttributeChar138" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR138"/>
+  <ViewAttribute Name="ExtnAttributeChar139" PrecisionRule="true" EntityAttrName="ExtnAttributeChar139" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR139"/>
+  <ViewAttribute Name="ExtnAttributeChar140" PrecisionRule="true" EntityAttrName="ExtnAttributeChar140" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR140"/>
+  <ViewAttribute Name="ExtnAttributeClob009" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob009" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB009"/>
+  <ViewAttribute Name="ExtnAttributeClob010" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob010" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB010"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp031" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp031" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP031"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp032" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp032" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP032"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp033" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp033" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP033"/>
+  <ViewAttribute Name="ExtnAttributeNumber081" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber081" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER081"/>
+  <ViewAttribute Name="ExtnAttributeNumber082" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber082" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER082"/>
+  <ViewAttribute Name="ExtnAttributeNumber083" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber083" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER083"/>
+  <ViewAttribute Name="ExtnAttributeNumber084" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber084" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER084"/>
+  <ViewAttribute Name="ExtnAttributeNumber085" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber085" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER085"/>
+  <ViewAttribute Name="ExtnAttributeNumber086" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber086" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER086"/>
+  <ViewAttribute Name="ExtnAttributeNumber087" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber087" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER087"/>
+  <ViewAttribute Name="ExtnAttributeNumber088" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber088" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER088"/>
+  <ViewAttribute Name="ExtnAttributeChar141" PrecisionRule="true" EntityAttrName="ExtnAttributeChar141" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR141"/>
+  <ViewAttribute Name="ExtnAttributeChar142" PrecisionRule="true" EntityAttrName="ExtnAttributeChar142" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR142"/>
+  <ViewAttribute Name="ExtnAttributeChar143" PrecisionRule="true" EntityAttrName="ExtnAttributeChar143" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR143"/>
+  <ViewAttribute Name="ExtnAttributeChar144" PrecisionRule="true" EntityAttrName="ExtnAttributeChar144" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR144"/>
+  <ViewAttribute Name="ExtnAttributeChar145" PrecisionRule="true" EntityAttrName="ExtnAttributeChar145" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR145"/>
+  <ViewAttribute Name="ExtnAttributeChar146" PrecisionRule="true" EntityAttrName="ExtnAttributeChar146" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR146"/>
+  <ViewAttribute Name="ExtnAttributeChar147" PrecisionRule="true" EntityAttrName="ExtnAttributeChar147" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR147"/>
+  <ViewAttribute Name="ExtnAttributeChar148" PrecisionRule="true" EntityAttrName="ExtnAttributeChar148" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR148"/>
+  <ViewAttribute Name="ExtnAttributeChar149" PrecisionRule="true" EntityAttrName="ExtnAttributeChar149" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR149"/>
+  <ViewAttribute Name="ExtnAttributeChar150" PrecisionRule="true" EntityAttrName="ExtnAttributeChar150" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR150"/>
+  <ViewAttribute Name="ExtnAttributeChar151" PrecisionRule="true" EntityAttrName="ExtnAttributeChar151" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR151"/>
+  <ViewAttribute Name="ExtnAttributeChar152" PrecisionRule="true" EntityAttrName="ExtnAttributeChar152" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR152"/>
+  <ViewAttribute Name="ExtnAttributeChar153" PrecisionRule="true" EntityAttrName="ExtnAttributeChar153" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR153"/>
+  <ViewAttribute Name="ExtnAttributeChar154" PrecisionRule="true" EntityAttrName="ExtnAttributeChar154" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR154"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp034" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp034" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP034"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp035" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp035" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP035"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp036" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp036" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP036"/>
+  <ViewAttribute Name="ExtnAttributeNumber089" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber089" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER089"/>
+  <ViewAttribute Name="ExtnAttributeNumber090" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber090" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER090"/>
+  <ViewAttribute Name="ExtnAttributeNumber091" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber091" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER091"/>
+  <ViewAttribute Name="ExtnAttributeNumber092" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber092" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER092"/>
+  <ViewAttribute Name="ExtnAttributeNumber093" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber093" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER093"/>
+  <ViewAttribute Name="ExtnAttributeNumber094" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber094" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER094"/>
+  <ViewAttribute Name="ExtnAttributeNumber095" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber095" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER095"/>
+  <ViewAttribute Name="ExtnAttributeNumber096" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber096" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER096"/>
+  <ViewAttribute Name="ExtnAttributeChar155" PrecisionRule="true" EntityAttrName="ExtnAttributeChar155" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR155"/>
+  <ViewAttribute Name="ExtnAttributeChar156" PrecisionRule="true" EntityAttrName="ExtnAttributeChar156" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR156"/>
+  <ViewAttribute Name="ExtnAttributeChar157" PrecisionRule="true" EntityAttrName="ExtnAttributeChar157" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR157"/>
+  <ViewAttribute Name="ExtnAttributeChar158" PrecisionRule="true" EntityAttrName="ExtnAttributeChar158" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR158"/>
+  <ViewAttribute Name="ExtnAttributeChar159" PrecisionRule="true" EntityAttrName="ExtnAttributeChar159" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR159"/>
+  <ViewAttribute Name="ExtnAttributeChar160" PrecisionRule="true" EntityAttrName="ExtnAttributeChar160" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR160"/>
+  <ViewAttribute Name="ExtnAttributeChar161" PrecisionRule="true" EntityAttrName="ExtnAttributeChar161" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR161"/>
+  <ViewAttribute Name="ExtnAttributeChar162" PrecisionRule="true" EntityAttrName="ExtnAttributeChar162" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR162"/>
+  <ViewAttribute Name="ExtnAttributeChar163" PrecisionRule="true" EntityAttrName="ExtnAttributeChar163" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR163"/>
+  <ViewAttribute Name="ExtnAttributeChar164" PrecisionRule="true" EntityAttrName="ExtnAttributeChar164" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR164"/>
+  <ViewAttribute Name="ExtnAttributeChar165" PrecisionRule="true" EntityAttrName="ExtnAttributeChar165" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR165"/>
+  <ViewAttribute Name="ExtnAttributeChar166" PrecisionRule="true" EntityAttrName="ExtnAttributeChar166" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR166"/>
+  <ViewAttribute Name="ExtnAttributeChar167" PrecisionRule="true" EntityAttrName="ExtnAttributeChar167" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR167"/>
+  <ViewAttribute Name="ExtnAttributeChar168" PrecisionRule="true" EntityAttrName="ExtnAttributeChar168" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR168"/>
+  <ViewAttribute Name="ExtnAttributeClob011" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob011" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB011"/>
+  <ViewAttribute Name="ExtnAttributeClob012" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob012" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB012"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp037" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp037" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP037"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp038" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp038" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP038"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp039" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp039" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP039"/>
+  <ViewAttribute Name="ExtnAttributeNumber097" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber097" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER097"/>
+  <ViewAttribute Name="ExtnAttributeNumber098" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber098" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER098"/>
+  <ViewAttribute Name="ExtnAttributeNumber099" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber099" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER099"/>
+  <ViewAttribute Name="ExtnAttributeNumber100" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber100" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER100"/>
+  <ViewAttribute Name="ExtnAttributeNumber101" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber101" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER101"/>
+  <ViewAttribute Name="ExtnAttributeNumber102" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber102" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER102"/>
+  <ViewAttribute Name="ExtnAttributeNumber103" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber103" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER103"/>
+  <ViewAttribute Name="ExtnAttributeNumber104" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber104" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER104"/>
+  <ViewAttribute Name="ExtnAttributeChar169" PrecisionRule="true" EntityAttrName="ExtnAttributeChar169" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR169"/>
+  <ViewAttribute Name="ExtnAttributeChar170" PrecisionRule="true" EntityAttrName="ExtnAttributeChar170" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR170"/>
+  <ViewAttribute Name="ExtnAttributeChar171" PrecisionRule="true" EntityAttrName="ExtnAttributeChar171" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR171"/>
+  <ViewAttribute Name="ExtnAttributeChar172" PrecisionRule="true" EntityAttrName="ExtnAttributeChar172" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR172"/>
+  <ViewAttribute Name="ExtnAttributeChar173" PrecisionRule="true" EntityAttrName="ExtnAttributeChar173" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR173"/>
+  <ViewAttribute Name="ExtnAttributeChar174" PrecisionRule="true" EntityAttrName="ExtnAttributeChar174" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR174"/>
+  <ViewAttribute Name="ExtnAttributeChar175" PrecisionRule="true" EntityAttrName="ExtnAttributeChar175" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR175"/>
+  <ViewAttribute Name="ExtnAttributeChar176" PrecisionRule="true" EntityAttrName="ExtnAttributeChar176" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR176"/>
+  <ViewAttribute Name="ExtnAttributeChar177" PrecisionRule="true" EntityAttrName="ExtnAttributeChar177" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR177"/>
+  <ViewAttribute Name="ExtnAttributeChar178" PrecisionRule="true" EntityAttrName="ExtnAttributeChar178" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR178"/>
+  <ViewAttribute Name="ExtnAttributeChar179" PrecisionRule="true" EntityAttrName="ExtnAttributeChar179" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR179"/>
+  <ViewAttribute Name="ExtnAttributeChar180" PrecisionRule="true" EntityAttrName="ExtnAttributeChar180" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR180"/>
+  <ViewAttribute Name="ExtnAttributeChar181" PrecisionRule="true" EntityAttrName="ExtnAttributeChar181" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR181"/>
+  <ViewAttribute Name="ExtnAttributeChar182" PrecisionRule="true" EntityAttrName="ExtnAttributeChar182" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR182"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp040" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp040" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP040"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp041" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp041" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP041"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp042" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp042" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP042"/>
+  <ViewAttribute Name="ExtnAttributeNumber105" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber105" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER105"/>
+  <ViewAttribute Name="ExtnAttributeNumber106" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber106" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER106"/>
+  <ViewAttribute Name="ExtnAttributeNumber107" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber107" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER107"/>
+  <ViewAttribute Name="ExtnAttributeNumber108" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber108" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER108"/>
+  <ViewAttribute Name="ExtnAttributeNumber109" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber109" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER109"/>
+  <ViewAttribute Name="ExtnAttributeNumber110" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber110" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER110"/>
+  <ViewAttribute Name="ExtnAttributeNumber111" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber111" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER111"/>
+  <ViewAttribute Name="ExtnAttributeNumber112" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber112" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER112"/>
+  <ViewAttribute Name="ExtnAttributeChar183" PrecisionRule="true" EntityAttrName="ExtnAttributeChar183" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR183"/>
+  <ViewAttribute Name="ExtnAttributeChar184" PrecisionRule="true" EntityAttrName="ExtnAttributeChar184" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR184"/>
+  <ViewAttribute Name="ExtnAttributeChar185" PrecisionRule="true" EntityAttrName="ExtnAttributeChar185" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR185"/>
+  <ViewAttribute Name="ExtnAttributeChar186" PrecisionRule="true" EntityAttrName="ExtnAttributeChar186" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR186"/>
+  <ViewAttribute Name="ExtnAttributeChar187" PrecisionRule="true" EntityAttrName="ExtnAttributeChar187" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR187"/>
+  <ViewAttribute Name="ExtnAttributeChar188" PrecisionRule="true" EntityAttrName="ExtnAttributeChar188" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR188"/>
+  <ViewAttribute Name="ExtnAttributeChar189" PrecisionRule="true" EntityAttrName="ExtnAttributeChar189" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR189"/>
+  <ViewAttribute Name="ExtnAttributeChar190" PrecisionRule="true" EntityAttrName="ExtnAttributeChar190" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR190"/>
+  <ViewAttribute Name="ExtnAttributeChar191" PrecisionRule="true" EntityAttrName="ExtnAttributeChar191" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR191"/>
+  <ViewAttribute Name="ExtnAttributeChar192" PrecisionRule="true" EntityAttrName="ExtnAttributeChar192" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR192"/>
+  <ViewAttribute Name="ExtnAttributeChar193" PrecisionRule="true" EntityAttrName="ExtnAttributeChar193" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR193"/>
+  <ViewAttribute Name="ExtnAttributeChar194" PrecisionRule="true" EntityAttrName="ExtnAttributeChar194" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR194"/>
+  <ViewAttribute Name="ExtnAttributeChar195" PrecisionRule="true" EntityAttrName="ExtnAttributeChar195" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR195"/>
+  <ViewAttribute Name="ExtnAttributeChar196" PrecisionRule="true" EntityAttrName="ExtnAttributeChar196" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR196"/>
+  <ViewAttribute Name="ExtnAttributeClob013" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob013" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB013"/>
+  <ViewAttribute Name="ExtnAttributeClob014" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob014" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB014"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp043" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp043" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP043"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp044" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp044" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP044"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp045" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp045" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP045"/>
+  <ViewAttribute Name="ExtnAttributeNumber113" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber113" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER113"/>
+  <ViewAttribute Name="ExtnAttributeNumber114" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber114" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER114"/>
+  <ViewAttribute Name="ExtnAttributeNumber115" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber115" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER115"/>
+  <ViewAttribute Name="ExtnAttributeNumber116" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber116" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER116"/>
+  <ViewAttribute Name="ExtnAttributeNumber117" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber117" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER117"/>
+  <ViewAttribute Name="ExtnAttributeNumber118" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber118" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER118"/>
+  <ViewAttribute Name="ExtnAttributeNumber119" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber119" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER119"/>
+  <ViewAttribute Name="ExtnAttributeNumber120" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber120" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER120"/>
+  <ViewAttribute Name="ExtnAttributeChar197" PrecisionRule="true" EntityAttrName="ExtnAttributeChar197" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR197"/>
+  <ViewAttribute Name="ExtnAttributeChar198" PrecisionRule="true" EntityAttrName="ExtnAttributeChar198" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR198"/>
+  <ViewAttribute Name="ExtnAttributeChar199" PrecisionRule="true" EntityAttrName="ExtnAttributeChar199" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR199"/>
+  <ViewAttribute Name="ExtnAttributeChar200" PrecisionRule="true" EntityAttrName="ExtnAttributeChar200" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR200"/>
+  <ViewAttribute Name="ExtnAttributeChar201" PrecisionRule="true" EntityAttrName="ExtnAttributeChar201" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR201"/>
+  <ViewAttribute Name="ExtnAttributeChar202" PrecisionRule="true" EntityAttrName="ExtnAttributeChar202" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR202"/>
+  <ViewAttribute Name="ExtnAttributeChar203" PrecisionRule="true" EntityAttrName="ExtnAttributeChar203" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR203"/>
+  <ViewAttribute Name="ExtnAttributeChar204" PrecisionRule="true" EntityAttrName="ExtnAttributeChar204" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR204"/>
+  <ViewAttribute Name="ExtnAttributeChar205" PrecisionRule="true" EntityAttrName="ExtnAttributeChar205" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR205"/>
+  <ViewAttribute Name="ExtnAttributeChar206" PrecisionRule="true" EntityAttrName="ExtnAttributeChar206" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR206"/>
+  <ViewAttribute Name="ExtnAttributeChar207" PrecisionRule="true" EntityAttrName="ExtnAttributeChar207" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR207"/>
+  <ViewAttribute Name="ExtnAttributeChar208" PrecisionRule="true" EntityAttrName="ExtnAttributeChar208" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR208"/>
+  <ViewAttribute Name="ExtnAttributeChar209" PrecisionRule="true" EntityAttrName="ExtnAttributeChar209" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR209"/>
+  <ViewAttribute Name="ExtnAttributeChar210" PrecisionRule="true" EntityAttrName="ExtnAttributeChar210" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR210"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp046" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp046" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP046"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp047" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp047" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP047"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp048" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp048" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP048"/>
+  <ViewAttribute Name="ExtnAttributeNumber121" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber121" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER121"/>
+  <ViewAttribute Name="ExtnAttributeNumber122" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber122" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER122"/>
+  <ViewAttribute Name="ExtnAttributeNumber123" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber123" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER123"/>
+  <ViewAttribute Name="ExtnAttributeNumber124" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber124" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER124"/>
+  <ViewAttribute Name="ExtnAttributeNumber125" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber125" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER125"/>
+  <ViewAttribute Name="ExtnAttributeNumber126" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber126" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER126"/>
+  <ViewAttribute Name="ExtnAttributeNumber127" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber127" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER127"/>
+  <ViewAttribute Name="ExtnAttributeNumber128" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber128" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER128"/>
+  <ViewAttribute Name="ExtnAttributeChar211" PrecisionRule="true" EntityAttrName="ExtnAttributeChar211" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR211"/>
+  <ViewAttribute Name="ExtnAttributeChar212" PrecisionRule="true" EntityAttrName="ExtnAttributeChar212" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR212"/>
+  <ViewAttribute Name="ExtnAttributeChar213" PrecisionRule="true" EntityAttrName="ExtnAttributeChar213" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR213"/>
+  <ViewAttribute Name="ExtnAttributeChar214" PrecisionRule="true" EntityAttrName="ExtnAttributeChar214" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR214"/>
+  <ViewAttribute Name="ExtnAttributeChar215" PrecisionRule="true" EntityAttrName="ExtnAttributeChar215" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR215"/>
+  <ViewAttribute Name="ExtnAttributeChar216" PrecisionRule="true" EntityAttrName="ExtnAttributeChar216" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR216"/>
+  <ViewAttribute Name="ExtnAttributeChar217" PrecisionRule="true" EntityAttrName="ExtnAttributeChar217" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR217"/>
+  <ViewAttribute Name="ExtnAttributeChar218" PrecisionRule="true" EntityAttrName="ExtnAttributeChar218" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR218"/>
+  <ViewAttribute Name="ExtnAttributeChar219" PrecisionRule="true" EntityAttrName="ExtnAttributeChar219" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR219"/>
+  <ViewAttribute Name="ExtnAttributeChar220" PrecisionRule="true" EntityAttrName="ExtnAttributeChar220" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR220"/>
+  <ViewAttribute Name="ExtnAttributeChar221" PrecisionRule="true" EntityAttrName="ExtnAttributeChar221" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR221"/>
+  <ViewAttribute Name="ExtnAttributeChar222" PrecisionRule="true" EntityAttrName="ExtnAttributeChar222" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR222"/>
+  <ViewAttribute Name="ExtnAttributeChar223" PrecisionRule="true" EntityAttrName="ExtnAttributeChar223" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR223"/>
+  <ViewAttribute Name="ExtnAttributeChar224" PrecisionRule="true" EntityAttrName="ExtnAttributeChar224" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR224"/>
+  <ViewAttribute Name="ExtnAttributeClob015" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob015" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB015"/>
+  <ViewAttribute Name="ExtnAttributeClob016" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob016" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB016"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp049" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp049" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP049"/>
+  <ViewAttribute Name="ExtnAttributeTimestamp050" PrecisionRule="true" EntityAttrName="ExtnAttributeTimestamp050" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_TIMESTAMP050"/>
+  <ViewAttribute Name="ExtnAttributeNumber129" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber129" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER129"/>
+  <ViewAttribute Name="ExtnAttributeNumber130" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber130" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER130"/>
+  <ViewAttribute Name="ExtnAttributeNumber131" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber131" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER131"/>
+  <ViewAttribute Name="ExtnAttributeNumber132" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber132" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER132"/>
+  <ViewAttribute Name="ExtnAttributeNumber133" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber133" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER133"/>
+  <ViewAttribute Name="ExtnAttributeNumber134" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber134" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER134"/>
+  <ViewAttribute Name="ExtnAttributeNumber135" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber135" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER135"/>
+  <ViewAttribute Name="ExtnAttributeNumber136" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber136" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER136"/>
+  <ViewAttribute Name="ExtnAttributeChar225" PrecisionRule="true" EntityAttrName="ExtnAttributeChar225" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR225"/>
+  <ViewAttribute Name="ExtnAttributeChar226" PrecisionRule="true" EntityAttrName="ExtnAttributeChar226" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR226"/>
+  <ViewAttribute Name="ExtnAttributeChar227" PrecisionRule="true" EntityAttrName="ExtnAttributeChar227" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR227"/>
+  <ViewAttribute Name="ExtnAttributeChar228" PrecisionRule="true" EntityAttrName="ExtnAttributeChar228" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR228"/>
+  <ViewAttribute Name="ExtnAttributeChar229" PrecisionRule="true" EntityAttrName="ExtnAttributeChar229" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR229"/>
+  <ViewAttribute Name="ExtnAttributeChar230" PrecisionRule="true" EntityAttrName="ExtnAttributeChar230" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR230"/>
+  <ViewAttribute Name="ExtnAttributeChar231" PrecisionRule="true" EntityAttrName="ExtnAttributeChar231" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR231"/>
+  <ViewAttribute Name="ExtnAttributeChar232" PrecisionRule="true" EntityAttrName="ExtnAttributeChar232" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR232"/>
+  <ViewAttribute Name="ExtnAttributeChar233" PrecisionRule="true" EntityAttrName="ExtnAttributeChar233" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR233"/>
+  <ViewAttribute Name="ExtnAttributeChar234" PrecisionRule="true" EntityAttrName="ExtnAttributeChar234" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR234"/>
+  <ViewAttribute Name="ExtnAttributeChar235" PrecisionRule="true" EntityAttrName="ExtnAttributeChar235" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR235"/>
+  <ViewAttribute Name="ExtnAttributeChar236" PrecisionRule="true" EntityAttrName="ExtnAttributeChar236" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR236"/>
+  <ViewAttribute Name="ExtnAttributeChar237" PrecisionRule="true" EntityAttrName="ExtnAttributeChar237" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR237"/>
+  <ViewAttribute Name="ExtnAttributeChar238" PrecisionRule="true" EntityAttrName="ExtnAttributeChar238" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR238"/>
+  <ViewAttribute Name="ExtnAttributeNumber137" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber137" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER137"/>
+  <ViewAttribute Name="ExtnAttributeNumber138" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber138" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER138"/>
+  <ViewAttribute Name="ExtnAttributeNumber139" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber139" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER139"/>
+  <ViewAttribute Name="ExtnAttributeNumber140" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber140" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER140"/>
+  <ViewAttribute Name="ExtnAttributeNumber141" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber141" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER141"/>
+  <ViewAttribute Name="ExtnAttributeNumber142" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber142" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER142"/>
+  <ViewAttribute Name="ExtnAttributeNumber143" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber143" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER143"/>
+  <ViewAttribute Name="ExtnAttributeNumber144" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber144" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER144"/>
+  <ViewAttribute Name="ExtnAttributeChar239" PrecisionRule="true" EntityAttrName="ExtnAttributeChar239" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR239"/>
+  <ViewAttribute Name="ExtnAttributeChar240" PrecisionRule="true" EntityAttrName="ExtnAttributeChar240" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR240"/>
+  <ViewAttribute Name="ExtnAttributeChar241" PrecisionRule="true" EntityAttrName="ExtnAttributeChar241" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR241"/>
+  <ViewAttribute Name="ExtnAttributeChar242" PrecisionRule="true" EntityAttrName="ExtnAttributeChar242" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR242"/>
+  <ViewAttribute Name="ExtnAttributeChar243" PrecisionRule="true" EntityAttrName="ExtnAttributeChar243" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR243"/>
+  <ViewAttribute Name="ExtnAttributeChar244" PrecisionRule="true" EntityAttrName="ExtnAttributeChar244" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR244"/>
+  <ViewAttribute Name="ExtnAttributeChar245" PrecisionRule="true" EntityAttrName="ExtnAttributeChar245" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR245"/>
+  <ViewAttribute Name="ExtnAttributeChar246" PrecisionRule="true" EntityAttrName="ExtnAttributeChar246" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR246"/>
+  <ViewAttribute Name="ExtnAttributeChar247" PrecisionRule="true" EntityAttrName="ExtnAttributeChar247" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR247"/>
+  <ViewAttribute Name="ExtnAttributeChar248" PrecisionRule="true" EntityAttrName="ExtnAttributeChar248" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR248"/>
+  <ViewAttribute Name="ExtnAttributeChar249" PrecisionRule="true" EntityAttrName="ExtnAttributeChar249" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR249"/>
+  <ViewAttribute Name="ExtnAttributeChar250" PrecisionRule="true" EntityAttrName="ExtnAttributeChar250" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR250"/>
+  <ViewAttribute Name="ExtnAttributeChar251" PrecisionRule="true" EntityAttrName="ExtnAttributeChar251" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR251"/>
+  <ViewAttribute Name="ExtnAttributeChar252" PrecisionRule="true" EntityAttrName="ExtnAttributeChar252" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR252"/>
+  <ViewAttribute Name="ExtnAttributeClob017" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob017" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB017"/>
+  <ViewAttribute Name="ExtnAttributeClob018" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob018" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB018"/>
+  <ViewAttribute Name="ExtnAttributeNumber145" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber145" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER145"/>
+  <ViewAttribute Name="ExtnAttributeNumber146" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber146" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER146"/>
+  <ViewAttribute Name="ExtnAttributeNumber147" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber147" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER147"/>
+  <ViewAttribute Name="ExtnAttributeNumber148" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber148" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER148"/>
+  <ViewAttribute Name="ExtnAttributeNumber149" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber149" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER149"/>
+  <ViewAttribute Name="ExtnAttributeNumber150" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber150" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER150"/>
+  <ViewAttribute Name="ExtnAttributeNumber151" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber151" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER151"/>
+  <ViewAttribute Name="ExtnAttributeNumber152" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber152" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER152"/>
+  <ViewAttribute Name="ExtnAttributeChar253" PrecisionRule="true" EntityAttrName="ExtnAttributeChar253" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR253"/>
+  <ViewAttribute Name="ExtnAttributeChar254" PrecisionRule="true" EntityAttrName="ExtnAttributeChar254" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR254"/>
+  <ViewAttribute Name="ExtnAttributeChar255" PrecisionRule="true" EntityAttrName="ExtnAttributeChar255" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR255"/>
+  <ViewAttribute Name="ExtnAttributeChar256" PrecisionRule="true" EntityAttrName="ExtnAttributeChar256" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR256"/>
+  <ViewAttribute Name="ExtnAttributeChar257" PrecisionRule="true" EntityAttrName="ExtnAttributeChar257" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR257"/>
+  <ViewAttribute Name="ExtnAttributeChar258" PrecisionRule="true" EntityAttrName="ExtnAttributeChar258" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR258"/>
+  <ViewAttribute Name="ExtnAttributeChar259" PrecisionRule="true" EntityAttrName="ExtnAttributeChar259" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR259"/>
+  <ViewAttribute Name="ExtnAttributeChar260" PrecisionRule="true" EntityAttrName="ExtnAttributeChar260" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR260"/>
+  <ViewAttribute Name="ExtnAttributeChar261" PrecisionRule="true" EntityAttrName="ExtnAttributeChar261" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR261"/>
+  <ViewAttribute Name="ExtnAttributeChar262" PrecisionRule="true" EntityAttrName="ExtnAttributeChar262" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR262"/>
+  <ViewAttribute Name="ExtnAttributeChar263" PrecisionRule="true" EntityAttrName="ExtnAttributeChar263" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR263"/>
+  <ViewAttribute Name="ExtnAttributeChar264" PrecisionRule="true" EntityAttrName="ExtnAttributeChar264" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR264"/>
+  <ViewAttribute Name="ExtnAttributeChar265" PrecisionRule="true" EntityAttrName="ExtnAttributeChar265" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR265"/>
+  <ViewAttribute Name="ExtnAttributeChar266" PrecisionRule="true" EntityAttrName="ExtnAttributeChar266" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR266"/>
+  <ViewAttribute Name="ExtnAttributeNumber153" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber153" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER153"/>
+  <ViewAttribute Name="ExtnAttributeNumber154" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber154" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER154"/>
+  <ViewAttribute Name="ExtnAttributeNumber155" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber155" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER155"/>
+  <ViewAttribute Name="ExtnAttributeNumber156" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber156" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER156"/>
+  <ViewAttribute Name="ExtnAttributeNumber157" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber157" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER157"/>
+  <ViewAttribute Name="ExtnAttributeNumber158" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber158" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER158"/>
+  <ViewAttribute Name="ExtnAttributeNumber159" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber159" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER159"/>
+  <ViewAttribute Name="ExtnAttributeNumber160" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber160" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER160"/>
+  <ViewAttribute Name="ExtnAttributeChar267" PrecisionRule="true" EntityAttrName="ExtnAttributeChar267" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR267"/>
+  <ViewAttribute Name="ExtnAttributeChar268" PrecisionRule="true" EntityAttrName="ExtnAttributeChar268" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR268"/>
+  <ViewAttribute Name="ExtnAttributeChar269" PrecisionRule="true" EntityAttrName="ExtnAttributeChar269" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR269"/>
+  <ViewAttribute Name="ExtnAttributeChar270" PrecisionRule="true" EntityAttrName="ExtnAttributeChar270" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR270"/>
+  <ViewAttribute Name="ExtnAttributeChar271" PrecisionRule="true" EntityAttrName="ExtnAttributeChar271" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR271"/>
+  <ViewAttribute Name="ExtnAttributeChar272" PrecisionRule="true" EntityAttrName="ExtnAttributeChar272" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR272"/>
+  <ViewAttribute Name="ExtnAttributeChar273" PrecisionRule="true" EntityAttrName="ExtnAttributeChar273" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR273"/>
+  <ViewAttribute Name="ExtnAttributeChar274" PrecisionRule="true" EntityAttrName="ExtnAttributeChar274" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR274"/>
+  <ViewAttribute Name="ExtnAttributeChar275" PrecisionRule="true" EntityAttrName="ExtnAttributeChar275" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR275"/>
+  <ViewAttribute Name="ExtnAttributeChar276" PrecisionRule="true" EntityAttrName="ExtnAttributeChar276" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR276"/>
+  <ViewAttribute Name="ExtnAttributeChar277" PrecisionRule="true" EntityAttrName="ExtnAttributeChar277" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR277"/>
+  <ViewAttribute Name="ExtnAttributeChar278" PrecisionRule="true" EntityAttrName="ExtnAttributeChar278" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR278"/>
+  <ViewAttribute Name="ExtnAttributeChar279" PrecisionRule="true" EntityAttrName="ExtnAttributeChar279" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR279"/>
+  <ViewAttribute Name="ExtnAttributeChar280" PrecisionRule="true" EntityAttrName="ExtnAttributeChar280" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR280"/>
+  <ViewAttribute Name="ExtnAttributeClob019" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob019" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB019"/>
+  <ViewAttribute Name="ExtnAttributeClob020" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob020" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB020"/>
+  <ViewAttribute Name="ExtnAttributeNumber161" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber161" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER161"/>
+  <ViewAttribute Name="ExtnAttributeNumber162" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber162" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER162"/>
+  <ViewAttribute Name="ExtnAttributeNumber163" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber163" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER163"/>
+  <ViewAttribute Name="ExtnAttributeNumber164" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber164" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER164"/>
+  <ViewAttribute Name="ExtnAttributeNumber165" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber165" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER165"/>
+  <ViewAttribute Name="ExtnAttributeNumber166" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber166" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER166"/>
+  <ViewAttribute Name="ExtnAttributeNumber167" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber167" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER167"/>
+  <ViewAttribute Name="ExtnAttributeNumber168" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber168" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER168"/>
+  <ViewAttribute Name="ExtnAttributeChar281" PrecisionRule="true" EntityAttrName="ExtnAttributeChar281" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR281"/>
+  <ViewAttribute Name="ExtnAttributeChar282" PrecisionRule="true" EntityAttrName="ExtnAttributeChar282" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR282"/>
+  <ViewAttribute Name="ExtnAttributeChar283" PrecisionRule="true" EntityAttrName="ExtnAttributeChar283" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR283"/>
+  <ViewAttribute Name="ExtnAttributeChar284" PrecisionRule="true" EntityAttrName="ExtnAttributeChar284" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR284"/>
+  <ViewAttribute Name="ExtnAttributeChar285" PrecisionRule="true" EntityAttrName="ExtnAttributeChar285" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR285"/>
+  <ViewAttribute Name="ExtnAttributeChar286" PrecisionRule="true" EntityAttrName="ExtnAttributeChar286" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR286"/>
+  <ViewAttribute Name="ExtnAttributeChar287" PrecisionRule="true" EntityAttrName="ExtnAttributeChar287" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR287"/>
+  <ViewAttribute Name="ExtnAttributeChar288" PrecisionRule="true" EntityAttrName="ExtnAttributeChar288" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR288"/>
+  <ViewAttribute Name="ExtnAttributeChar289" PrecisionRule="true" EntityAttrName="ExtnAttributeChar289" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR289"/>
+  <ViewAttribute Name="ExtnAttributeChar290" PrecisionRule="true" EntityAttrName="ExtnAttributeChar290" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR290"/>
+  <ViewAttribute Name="ExtnAttributeChar291" PrecisionRule="true" EntityAttrName="ExtnAttributeChar291" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR291"/>
+  <ViewAttribute Name="ExtnAttributeChar292" PrecisionRule="true" EntityAttrName="ExtnAttributeChar292" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR292"/>
+  <ViewAttribute Name="ExtnAttributeChar293" PrecisionRule="true" EntityAttrName="ExtnAttributeChar293" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR293"/>
+  <ViewAttribute Name="ExtnAttributeChar294" PrecisionRule="true" EntityAttrName="ExtnAttributeChar294" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR294"/>
+  <ViewAttribute Name="ExtnAttributeNumber169" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber169" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER169"/>
+  <ViewAttribute Name="ExtnAttributeNumber170" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber170" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER170"/>
+  <ViewAttribute Name="ExtnAttributeNumber171" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber171" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER171"/>
+  <ViewAttribute Name="ExtnAttributeNumber172" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber172" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER172"/>
+  <ViewAttribute Name="ExtnAttributeNumber173" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber173" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER173"/>
+  <ViewAttribute Name="ExtnAttributeNumber174" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber174" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER174"/>
+  <ViewAttribute Name="ExtnAttributeNumber175" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber175" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER175"/>
+  <ViewAttribute Name="ExtnAttributeNumber176" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber176" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER176"/>
+  <ViewAttribute Name="ExtnAttributeChar295" PrecisionRule="true" EntityAttrName="ExtnAttributeChar295" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR295"/>
+  <ViewAttribute Name="ExtnAttributeChar296" PrecisionRule="true" EntityAttrName="ExtnAttributeChar296" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR296"/>
+  <ViewAttribute Name="ExtnAttributeChar297" PrecisionRule="true" EntityAttrName="ExtnAttributeChar297" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR297"/>
+  <ViewAttribute Name="ExtnAttributeChar298" PrecisionRule="true" EntityAttrName="ExtnAttributeChar298" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR298"/>
+  <ViewAttribute Name="ExtnAttributeChar299" PrecisionRule="true" EntityAttrName="ExtnAttributeChar299" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR299"/>
+  <ViewAttribute Name="ExtnAttributeChar300" PrecisionRule="true" EntityAttrName="ExtnAttributeChar300" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR300"/>
+  <ViewAttribute Name="ExtnAttributeChar301" PrecisionRule="true" EntityAttrName="ExtnAttributeChar301" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR301"/>
+  <ViewAttribute Name="ExtnAttributeChar302" PrecisionRule="true" EntityAttrName="ExtnAttributeChar302" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR302"/>
+  <ViewAttribute Name="ExtnAttributeChar303" PrecisionRule="true" EntityAttrName="ExtnAttributeChar303" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR303"/>
+  <ViewAttribute Name="ExtnAttributeChar304" PrecisionRule="true" EntityAttrName="ExtnAttributeChar304" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR304"/>
+  <ViewAttribute Name="ExtnAttributeChar305" PrecisionRule="true" EntityAttrName="ExtnAttributeChar305" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR305"/>
+  <ViewAttribute Name="ExtnAttributeChar306" PrecisionRule="true" EntityAttrName="ExtnAttributeChar306" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR306"/>
+  <ViewAttribute Name="ExtnAttributeChar307" PrecisionRule="true" EntityAttrName="ExtnAttributeChar307" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR307"/>
+  <ViewAttribute Name="ExtnAttributeChar308" PrecisionRule="true" EntityAttrName="ExtnAttributeChar308" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR308"/>
+  <ViewAttribute Name="ExtnAttributeClob021" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob021" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB021"/>
+  <ViewAttribute Name="ExtnAttributeClob022" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob022" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB022"/>
+  <ViewAttribute Name="ExtnAttributeNumber177" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber177" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER177"/>
+  <ViewAttribute Name="ExtnAttributeNumber178" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber178" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER178"/>
+  <ViewAttribute Name="ExtnAttributeNumber179" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber179" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER179"/>
+  <ViewAttribute Name="ExtnAttributeNumber180" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber180" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER180"/>
+  <ViewAttribute Name="ExtnAttributeNumber181" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber181" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER181"/>
+  <ViewAttribute Name="ExtnAttributeNumber182" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber182" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER182"/>
+  <ViewAttribute Name="ExtnAttributeNumber183" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber183" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER183"/>
+  <ViewAttribute Name="ExtnAttributeNumber184" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber184" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER184"/>
+  <ViewAttribute Name="ExtnAttributeChar309" PrecisionRule="true" EntityAttrName="ExtnAttributeChar309" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR309"/>
+  <ViewAttribute Name="ExtnAttributeChar310" PrecisionRule="true" EntityAttrName="ExtnAttributeChar310" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR310"/>
+  <ViewAttribute Name="ExtnAttributeChar311" PrecisionRule="true" EntityAttrName="ExtnAttributeChar311" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR311"/>
+  <ViewAttribute Name="ExtnAttributeChar312" PrecisionRule="true" EntityAttrName="ExtnAttributeChar312" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR312"/>
+  <ViewAttribute Name="ExtnAttributeChar313" PrecisionRule="true" EntityAttrName="ExtnAttributeChar313" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR313"/>
+  <ViewAttribute Name="ExtnAttributeChar314" PrecisionRule="true" EntityAttrName="ExtnAttributeChar314" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR314"/>
+  <ViewAttribute Name="ExtnAttributeChar315" PrecisionRule="true" EntityAttrName="ExtnAttributeChar315" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR315"/>
+  <ViewAttribute Name="ExtnAttributeChar316" PrecisionRule="true" EntityAttrName="ExtnAttributeChar316" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR316"/>
+  <ViewAttribute Name="ExtnAttributeChar317" PrecisionRule="true" EntityAttrName="ExtnAttributeChar317" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR317"/>
+  <ViewAttribute Name="ExtnAttributeChar318" PrecisionRule="true" EntityAttrName="ExtnAttributeChar318" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR318"/>
+  <ViewAttribute Name="ExtnAttributeChar319" PrecisionRule="true" EntityAttrName="ExtnAttributeChar319" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR319"/>
+  <ViewAttribute Name="ExtnAttributeChar320" PrecisionRule="true" EntityAttrName="ExtnAttributeChar320" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR320"/>
+  <ViewAttribute Name="ExtnAttributeChar321" PrecisionRule="true" EntityAttrName="ExtnAttributeChar321" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR321"/>
+  <ViewAttribute Name="ExtnAttributeChar322" PrecisionRule="true" EntityAttrName="ExtnAttributeChar322" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR322"/>
+  <ViewAttribute Name="ExtnAttributeNumber185" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber185" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER185"/>
+  <ViewAttribute Name="ExtnAttributeNumber186" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber186" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER186"/>
+  <ViewAttribute Name="ExtnAttributeNumber187" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber187" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER187"/>
+  <ViewAttribute Name="ExtnAttributeNumber188" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber188" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER188"/>
+  <ViewAttribute Name="ExtnAttributeNumber189" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber189" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER189"/>
+  <ViewAttribute Name="ExtnAttributeNumber190" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber190" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER190"/>
+  <ViewAttribute Name="ExtnAttributeNumber191" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber191" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER191"/>
+  <ViewAttribute Name="ExtnAttributeNumber192" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber192" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER192"/>
+  <ViewAttribute Name="ExtnAttributeChar323" PrecisionRule="true" EntityAttrName="ExtnAttributeChar323" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR323"/>
+  <ViewAttribute Name="ExtnAttributeChar324" PrecisionRule="true" EntityAttrName="ExtnAttributeChar324" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR324"/>
+  <ViewAttribute Name="ExtnAttributeChar325" PrecisionRule="true" EntityAttrName="ExtnAttributeChar325" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR325"/>
+  <ViewAttribute Name="ExtnAttributeChar326" PrecisionRule="true" EntityAttrName="ExtnAttributeChar326" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR326"/>
+  <ViewAttribute Name="ExtnAttributeChar327" PrecisionRule="true" EntityAttrName="ExtnAttributeChar327" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR327"/>
+  <ViewAttribute Name="ExtnAttributeChar328" PrecisionRule="true" EntityAttrName="ExtnAttributeChar328" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR328"/>
+  <ViewAttribute Name="ExtnAttributeChar329" PrecisionRule="true" EntityAttrName="ExtnAttributeChar329" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR329"/>
+  <ViewAttribute Name="ExtnAttributeChar330" PrecisionRule="true" EntityAttrName="ExtnAttributeChar330" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR330"/>
+  <ViewAttribute Name="ExtnAttributeChar331" PrecisionRule="true" EntityAttrName="ExtnAttributeChar331" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR331"/>
+  <ViewAttribute Name="ExtnAttributeChar332" PrecisionRule="true" EntityAttrName="ExtnAttributeChar332" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR332"/>
+  <ViewAttribute Name="ExtnAttributeChar333" PrecisionRule="true" EntityAttrName="ExtnAttributeChar333" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR333"/>
+  <ViewAttribute Name="ExtnAttributeChar334" PrecisionRule="true" EntityAttrName="ExtnAttributeChar334" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR334"/>
+  <ViewAttribute Name="ExtnAttributeChar335" PrecisionRule="true" EntityAttrName="ExtnAttributeChar335" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR335"/>
+  <ViewAttribute Name="ExtnAttributeChar336" PrecisionRule="true" EntityAttrName="ExtnAttributeChar336" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR336"/>
+  <ViewAttribute Name="ExtnAttributeClob023" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob023" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB023"/>
+  <ViewAttribute Name="ExtnAttributeClob024" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob024" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB024"/>
+  <ViewAttribute Name="ExtnAttributeNumber193" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber193" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER193"/>
+  <ViewAttribute Name="ExtnAttributeNumber194" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber194" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER194"/>
+  <ViewAttribute Name="ExtnAttributeNumber195" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber195" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER195"/>
+  <ViewAttribute Name="ExtnAttributeNumber196" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber196" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER196"/>
+  <ViewAttribute Name="ExtnAttributeNumber197" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber197" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER197"/>
+  <ViewAttribute Name="ExtnAttributeNumber198" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber198" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER198"/>
+  <ViewAttribute Name="ExtnAttributeNumber199" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber199" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER199"/>
+  <ViewAttribute Name="ExtnAttributeNumber200" PrecisionRule="true" EntityAttrName="ExtnAttributeNumber200" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_NUMBER200"/>
+  <ViewAttribute Name="ExtnAttributeChar337" PrecisionRule="true" EntityAttrName="ExtnAttributeChar337" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR337"/>
+  <ViewAttribute Name="ExtnAttributeChar338" PrecisionRule="true" EntityAttrName="ExtnAttributeChar338" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR338"/>
+  <ViewAttribute Name="ExtnAttributeChar339" PrecisionRule="true" EntityAttrName="ExtnAttributeChar339" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR339"/>
+  <ViewAttribute Name="ExtnAttributeChar340" PrecisionRule="true" EntityAttrName="ExtnAttributeChar340" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR340"/>
+  <ViewAttribute Name="ExtnAttributeChar341" PrecisionRule="true" EntityAttrName="ExtnAttributeChar341" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR341"/>
+  <ViewAttribute Name="ExtnAttributeChar342" PrecisionRule="true" EntityAttrName="ExtnAttributeChar342" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR342"/>
+  <ViewAttribute Name="ExtnAttributeChar343" PrecisionRule="true" EntityAttrName="ExtnAttributeChar343" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR343"/>
+  <ViewAttribute Name="ExtnAttributeChar344" PrecisionRule="true" EntityAttrName="ExtnAttributeChar344" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR344"/>
+  <ViewAttribute Name="ExtnAttributeChar345" PrecisionRule="true" EntityAttrName="ExtnAttributeChar345" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR345"/>
+  <ViewAttribute Name="ExtnAttributeChar346" PrecisionRule="true" EntityAttrName="ExtnAttributeChar346" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR346"/>
+  <ViewAttribute Name="ExtnAttributeChar347" PrecisionRule="true" EntityAttrName="ExtnAttributeChar347" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR347"/>
+  <ViewAttribute Name="ExtnAttributeChar348" PrecisionRule="true" EntityAttrName="ExtnAttributeChar348" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR348"/>
+  <ViewAttribute Name="ExtnAttributeChar349" PrecisionRule="true" EntityAttrName="ExtnAttributeChar349" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR349"/>
+  <ViewAttribute Name="ExtnAttributeChar350" PrecisionRule="true" EntityAttrName="ExtnAttributeChar350" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CHAR350"/>
+  <ViewAttribute Name="ExtnAttributeClob025" IsQueriable="false" PrecisionRule="true" EntityAttrName="ExtnAttributeClob025" EntityUsage="RelationshipEO" AliasName="EXTN_ATTRIBUTE_CLOB025"/>
+  <ViewAttribute Name="Rowid" IsUpdateable="false" PrecisionRule="true" EntityAttrName="Rowid" EntityUsage="RelationshipEO" AliasName="ROWID"/>
+</ViewObject>

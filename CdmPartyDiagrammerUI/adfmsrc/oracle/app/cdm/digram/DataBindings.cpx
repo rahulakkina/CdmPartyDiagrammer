@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.1.2.65.26" id="DataBindings"
+             SeparateXMLFiles="false" Package="oracle.app.cdm.digram" ClientType="Generic">
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/adfm/dvt"
+             className="oracle.adfinternal.view.faces.dvt.model.binding.FacesBindingFactory"/>
+  </definitionFactories>
+  <pageMap>
+    <page path="/pages/PartyRelationshipGraph.jsf" usageId="oracle_app_cdm_digram_PartyRelationshipGraphPageDef"/>
+    <page path="/pages/PartyRelationGraph.jspx" usageId="oracle_app_cdm_digram_PartyRelationGraphPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="oracle_app_cdm_digram_PartyRelationshipGraphPageDef" path="pages.PartyRelationshipGraphPageDef"/>
+    <page id="oracle_app_cdm_digram_PartyRelationGraphPageDef" path="oracle.app.cdm.digram.PartyRelationGraphPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <BC4JDataControl id="PartyRelationshipAMDataControl" Package="oracle.app.cdm.diagram.module"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="PartyRelationshipAMLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

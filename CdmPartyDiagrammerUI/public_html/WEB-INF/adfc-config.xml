@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <metadata-resource id="__2">/WEB-INF/flow/party-relation-graph-task-flow.xml</metadata-resource>
+  <view id="PartyRelationGraph">
+    <page>pages/PartyRelationGraph.jspx</page>
+  </view> 
+  <managed-bean id="__1">
+    <managed-bean-name>backing_pages_PartyRelationGraph</managed-bean-name>
+    <managed-bean-class>oracle.app.cdm.digram.backing.PartyRelationGraph</managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+    <managed-property id="__4">
+      <property-name>partyId</property-name>
+      <property-class>java.lang.Long</property-class>
+      <value>4041</value>
+    </managed-property>
+    <managed-property id="__5">
+      <property-name>depth</property-name>
+      <property-class>java.lang.Integer</property-class>
+      <value>2</value>
+    </managed-property>
+    <managed-property id="__6">
+      <property-name>diagramLayout</property-name>
+      <property-class>java.lang.String</property-class>
+      <value>network</value>
+    </managed-property>
+  </managed-bean>
+</adfc-config>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.2.65.26" id="PartyRelationGraphPageDef"
+                Package="oracle.app.cdm.digram">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="PartyRelationshipVO1" RangeSize="-1" DataControl="PartyRelationshipAMDataControl"
+              id="PartyRelationshipVO1Iterator"/>
+    <iterator Binds="PartyVO1" Sortable="true" RangeSize="1000" DataControl="PartyRelationshipAMDataControl" id="PartyVO1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="PartyRelationshipVO1Iterator" id="PartyRelationshipVO1">
+      <nodeDefinition DefName="oracle.app.cdm.diagram.view.PartyRelationshipVO" Name="PartyRelationshipVO1">
+        <AttrNames>
+          <Item Value="PartyType"/>
+          <Item Value="PartyUniqueName"/>
+          <Item Value="Rowid"/>
+          <Item Value="PartyName"/>
+          <Item Value="RelationshipCode"/>
+          <Item Value="Rowid1"/>
+          <Item Value="ObjectId"/>
+          <Item Value="ObjectType"/>
+          <Item Value="SubjectId"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="PartyRelationshipVO1Iterator" id="PartyRelationshipVO11">
+      <nodeDefinition DefName="oracle.app.cdm.diagram.view.PartyRelationshipVO" Name="PartyRelationshipVO1">
+        <AttrNames>
+          <Item Value="PartyType"/>
+          <Item Value="PartyUniqueName"/>
+          <Item Value="Rowid"/>
+          <Item Value="PartyName"/>
+          <Item Value="RelationshipCode"/>
+          <Item Value="Rowid1"/>
+          <Item Value="ObjectId"/>
+          <Item Value="ObjectType"/>
+          <Item Value="SubjectId"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>    
+    <list IterBinding="PartyVO1Iterator" ListOperMode="navigation" ListIter="PartyVO1Iterator" id="PartyVO11"
+          DTSupportsMRU="true" SelectItemValueMode="ListObject">
+      <AttrNames>          
+        <Item Value="PartyId"/>
+      </AttrNames>
+    </list>
+  </bindings>
+</pageDefinition>

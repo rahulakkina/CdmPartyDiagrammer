@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE Association SYSTEM "jbo_03_01.dtd">
+<!---->
+<Association
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="PreferredPartyEOToOrganizationPEO"
+  Version="12.1.2.66.26"
+  InheritPersonalization="merge">
+  <DesignTime>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <AssociationEnd
+    Name="PartyEO"
+    Cardinality="1"
+    Source="true"
+    Owner="oracle.app.cdm.diagram.entity.PartyEO"
+    LockLevel="NONE">
+    <DesignTime>
+      <Attr Name="_aggregation" Value="0"/>
+      <Attr Name="_finderName" Value="PartyEO"/>
+      <Attr Name="_isUpdateable" Value="true"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="oracle.app.cdm.diagram.entity.PartyEO.PartyId"/>
+    </AttrArray>
+  </AssociationEnd>
+  <AssociationEnd
+    Name="OrganizationPEO"
+    Cardinality="-1"
+    Owner="oracle.app.cdm.diagram.entity.OrganizationPEO">
+    <DesignTime>
+      <Attr Name="_aggregation" Value="0"/>
+      <Attr Name="_finderName" Value="OrganizationPEO"/>
+      <Attr Name="_isUpdateable" Value="true"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="oracle.app.cdm.diagram.entity.OrganizationPEO.PreferredContactPersonId"/>
+    </AttrArray>
+  </AssociationEnd>
+</Association>

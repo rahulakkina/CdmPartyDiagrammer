@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<features xmlns="http://xmlns.oracle.com/adf/faces/feature">
+  <feature>
+    <feature-name>AdfDvtLayoutSupport</feature-name>    
+    <feature-class>jsLibs/diagram/simple/AdfDvtLayoutSupport.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>AdfDvtCircleLayout</feature-name>    
+    <feature-dependency>AdfDvtLayoutSupport</feature-dependency>
+    <feature-class>jsLibs/diagram/simple/AdfDvtCircleLayout.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>AdfDvtSquareLayout</feature-name>    
+    <feature-dependency>AdfDvtLayoutSupport</feature-dependency>
+    <feature-class>jsLibs/diagram/simple/AdfDvtSquareLayout.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>AdfDvtGridLayout</feature-name>    
+    <feature-dependency>AdfDvtLayoutSupport</feature-dependency>
+    <feature-class>jsLibs/diagram/simple/AdfDvtGridLayout.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>AdfDvtForceDirectedLayout</feature-name>    
+    <feature-dependency>AdfDvtCircleLayout</feature-dependency>
+    <feature-class>jsLibs/diagram/simple/AdfDvtForceDirectedLayout.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>AdfDvtBusLayout</feature-name>
+    <feature-class>jsLibs/diagram/simple/AdfDvtBusLayout.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>AdfDvtContainerPaddingLayout</feature-name>
+    <feature-class>jsLibs/diagram/simple/AdfDvtContainerPaddingLayout.js</feature-class>
+  </feature>
+  
+  <feature>
+    <feature-name>AdfDvtTierLayout</feature-name>    
+    <feature-dependency>AdfDvtLayoutSupport</feature-dependency>
+    <feature-class>jsLibs/diagram/simple/AdfDvtTierLayout.js</feature-class>
+  </feature>
+
+<feature>
+    <feature-name>AdfDvtDbSchemaLayout</feature-name>
+    <feature-class>jsLibs/diagram/simple/AdfDvtDbSchemaLayout.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>LytLayoutSupport</feature-name>
+    <feature-class>jsLibs/diagram/advanced/LytObj.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytAttributes2.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytChannelPadUtil.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytLabelUtil.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytLayoutDesc.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytDimension.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytLayout.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytLinkDS.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytLinkUtil.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytChannelRouteUtil.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytNodeUtil.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytPadRect.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytPoint.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytConnectMatrix.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/LytLevelUtil.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/tree/LytTreeLayout.js</feature-class>
+  </feature>
+  
+  <feature>
+    <feature-name>LytTreeLayout</feature-name>
+    <feature-dependency>LytLayoutSupport</feature-dependency>
+    <feature-class>jsLibs/diagram/advanced/tree/LytTreeLayoutDesc.js</feature-class>
+  </feature>
+  
+  <feature>
+    <feature-name>LytGridLayout</feature-name>
+    <feature-dependency>LytLayoutSupport</feature-dependency>
+    <feature-class>jsLibs/diagram/advanced/grid/LytGridLayout.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/grid/LytGridLayoutDesc.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/grid/LytGridPadDesc.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/grid/LytGridUtil.js</feature-class>
+  </feature>
+  
+  <feature>
+    <feature-name>LytSparseGridLayout</feature-name>
+    <feature-dependency>LytGridLayout</feature-dependency>
+    <feature-class>jsLibs/diagram/advanced/sparseGrid/LytSparseGridLayout.js</feature-class>
+    <feature-class>jsLibs/diagram/advanced/sparseGrid/LytSparseGridLayoutDesc.js</feature-class>
+  </feature>
+
+  <feature>
+    <feature-name>LytWorkflowLayout</feature-name>
+    <feature-dependency>LytSparseGridLayout</feature-dependency>
+    <feature-class>jsLibs/diagram/advanced/workflow/LytWorkflowLayout.js</feature-class>
+  </feature>
+
+</features>
